@@ -603,14 +603,14 @@
             <objects>
                 <viewController id="SAV-qb-dek" customClass="ViewController" customModule="environmenTELL2020" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fiw-EA-fR3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="3300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Yx-p6-hKZ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="3300"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RSQ-2G-dXn">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3000"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RSQ-2G-dXn">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3300"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="environmenTELL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1W0-aj-DpL">
                                                 <rect key="frame" x="64" y="64" width="287" height="40"/>
@@ -662,11 +662,6 @@
                                                     <segue destination="1JO-J7-Qz7" kind="presentation" modalPresentationStyle="fullScreen" id="uK0-6u-Me8"/>
                                                 </connections>
                                             </button>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EHl-LF-ctb">
-                                                <rect key="frame" x="0.0" y="1068" width="414" height="348"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </view>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="world2.gif" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fnj-Vk-TKh">
                                                 <rect key="frame" x="0.0" y="161" width="414" height="257"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -678,6 +673,50 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
                                                 <color key="textColor" red="0.39755458049999998" green="0.62136130140000001" blue="0.88495291099999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIA-Jg-WLj">
+                                                <rect key="frame" x="133" y="1118" width="148" height="40"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="34"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHy-sL-JHb">
+                                                <rect key="frame" x="202" y="1315" width="188" height="436"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Arianna is a rising Junior at Atlantic City High School. She participates in the marine environmental club at her school and loves to share her knowledge with others. This is her second year with Kode With Klossy, but her first time making an app. She has participated in two hackathons and loves exploring the world of computer science. Fun Fact: She runs cross country.
+</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vuK-Ct-IkZ">
+                                                <rect key="frame" x="202" y="1882" width="188" height="436"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Olivia is a rising junior at Ocean City High School and has a passion for the Environment and computer Science. She is the president of OCHS’ Student Environmental Association and is a student liaison to the Oc Environmental Commission. This is her second year with Kode With Klossy and she has participated in 
+two hackathons. Fun fact: her favorite animal is the penguin!!
+</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5B2-qc-Rc0">
+                                                <rect key="frame" x="202" y="2430" width="188" height="293"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Madeline is a rising Sophomore at Ocean City High School and likes learning about our world and sharing the information with her friends and family.   This is her second year with Kode With Klossy and LOVES all types of food (especially Korean Food).
+</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prb-z2-x2u">
+                                                <rect key="frame" x="202" y="2845" width="188" height="381"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Isabelle is a rising Senior at Ocean City High School.  She is the Vice President of OCHS’ Student Environmental Association and a student liaison to the Ocean City Environmental Commission.  This will be Isabelle’s third year with Kode With Klossy and she is excited to further her education in computer science.  Fun Fact: She plays both flute and piccolo!
+</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -706,14 +745,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yWu-hV-1wv"/>
                     </view>
-                    <size key="freeformSize" width="414" height="3000"/>
+                    <size key="freeformSize" width="414" height="3300"/>
                     <connections>
                         <outlet property="GifView" destination="Fnj-Vk-TKh" id="V7R-K6-Nzl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vtA-Bd-KUd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1915.9420289855075" y="1170.5357142857142"/>
+            <point key="canvasLocation" x="1650.7246376811595" y="1161.8303571428571"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fdA-4f-Fpl">
@@ -756,7 +795,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jrz-1P-7rK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2413" y="2514"/>
+            <point key="canvasLocation" x="2603" y="2628"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ngR-8l-rtk">
@@ -1344,7 +1383,7 @@ You can recycle paper, plastic, metal, cardboard, cans, glass, batteries
     <inferredMetricsTieBreakers>
         <segue reference="uK0-6u-Me8"/>
         <segue reference="iDv-d2-DMm"/>
-        <segue reference="Y4K-ft-PXQ"/>
+        <segue reference="FOU-5f-OGt"/>
         <segue reference="mHI-6h-jEG"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
