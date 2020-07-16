@@ -603,14 +603,14 @@
             <objects>
                 <viewController id="SAV-qb-dek" customClass="ViewController" customModule="environmenTELL2020" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fiw-EA-fR3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="3300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="3900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Yx-p6-hKZ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="3300"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="3900"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RSQ-2G-dXn">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3300"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3900"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="environmenTELL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1W0-aj-DpL">
                                                 <rect key="frame" x="64" y="64" width="287" height="40"/>
@@ -745,7 +745,7 @@ two hackathons. Fun fact: her favorite animal is the penguin!!
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yWu-hV-1wv"/>
                     </view>
-                    <size key="freeformSize" width="414" height="3300"/>
+                    <size key="freeformSize" width="414" height="3900"/>
                     <connections>
                         <outlet property="GifView" destination="Fnj-Vk-TKh" id="V7R-K6-Nzl"/>
                     </connections>
