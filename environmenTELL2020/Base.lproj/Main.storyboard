@@ -1302,9 +1302,6 @@ You can recycle paper, plastic, metal, cardboard, cans, glass, batteries
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="oc1-FE-FNQ"/>
-        <segue reference="t1V-K8-0il"/>
-        <segue reference="sdJ-Ct-9Cv"/>
         <segue reference="jZM-2F-5it"/>
         <segue reference="DzU-ab-RCo"/>
         <segue reference="Y4K-ft-PXQ"/>
