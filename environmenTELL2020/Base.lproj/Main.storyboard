@@ -229,7 +229,7 @@
                                 <state key="normal" title="No"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.8530473113" green="0.95297855139999998" blue="0.9487481713" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.84791032499863017" green="0.95297855139999998" blue="0.9487481713" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="lTx-Z2-hxh"/>
                     </view>
                     <navigationItem key="navigationItem" id="u93-TK-XUc"/>
@@ -568,17 +568,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCL-ta-rml">
-                                <rect key="frame" x="198" y="588" width="32" height="30"/>
+                                <rect key="frame" x="192" y="589" width="44" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="Xbg-hN-xtx" kind="presentation" modalPresentationStyle="fullScreen" id="7Tt-ZV-3fc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qdf-dh-0uK">
-                                <rect key="frame" x="175" y="744" width="34" height="30"/>
+                                <rect key="frame" x="171" y="745" width="46" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="19"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="SAV-qb-dek" kind="presentation" modalPresentationStyle="fullScreen" id="Y4K-ft-PXQ"/>
                                 </connections>
@@ -1338,7 +1344,7 @@ You can recycle paper, plastic, metal, cardboard, cans, glass, batteries
     <inferredMetricsTieBreakers>
         <segue reference="uK0-6u-Me8"/>
         <segue reference="iDv-d2-DMm"/>
-        <segue reference="mFM-bF-1zL"/>
+        <segue reference="Y4K-ft-PXQ"/>
         <segue reference="mHI-6h-jEG"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
