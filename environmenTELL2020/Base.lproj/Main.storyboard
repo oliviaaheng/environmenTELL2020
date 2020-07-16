@@ -147,7 +147,7 @@
                                 <state key="normal" title="Next"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.42269459370000001" green="0.76462489369999997" blue="0.80922144650000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="tpC-w0-JTk"/>
                     </view>
                 </viewController>
@@ -195,7 +195,7 @@
                                 <state key="normal" title="Next"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.8530473113" green="0.95297855139999998" blue="0.9487481713" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="lTx-Z2-hxh"/>
                     </view>
                 </viewController>
@@ -246,7 +246,8 @@
                                 <state key="normal" title="Next"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.44911420349999998" green="0.80420523880000006" blue="0.54072409870000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="pal-vg-yFp"/>
                     </view>
                 </viewController>
@@ -302,7 +303,7 @@
                                 <state key="normal" title="Next"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.44911420349999998" green="0.80420523880000006" blue="0.54072409870000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="gBh-DR-Ich"/>
                     </view>
                 </viewController>
@@ -358,7 +359,7 @@
                                 <state key="normal" title="Next"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.44911420349999998" green="0.80420523880000006" blue="0.54072409870000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="2xk-Pe-O0V"/>
                     </view>
                 </viewController>
@@ -414,7 +415,7 @@
                                 <state key="normal" title="Next"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.44507765770000002" green="0.76462745669999999" blue="0.80922311540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="aBV-Ut-bmp"/>
                     </view>
                 </viewController>
@@ -460,7 +461,7 @@
                                 <state key="normal" title="Next"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.86071187260000004" green="0.95298010109999998" blue="0.94874936340000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="cbk-sN-yLe"/>
                     </view>
                 </viewController>
@@ -1019,7 +1020,7 @@ You can recycle paper, plastic, metal, cardboard, cans, glass, batteries
                                         </state>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" red="0.43387287860000001" green="0.76462614539999996" blue="0.80922228100000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <viewLayoutGuide key="safeArea" id="6aQ-qn-BWj"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="xjc-mz-OMH">
@@ -1087,7 +1088,7 @@ You can recycle paper, plastic, metal, cardboard, cans, glass, batteries
                                 <state key="normal" title="Next"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.85687917469999997" green="0.95297938589999998" blue="0.94874876740000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wHA-gg-maz"/>
                     </view>
                 </viewController>
