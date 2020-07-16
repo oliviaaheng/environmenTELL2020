@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A350CB24C100E1007AF685 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A350CA24C100E1007AF685 /* Swift+Gif.swift */; };
+		18A350CD24C10232007AF685 /* world.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18A350CC24C10232007AF685 /* world.gif */; };
+		18A350CF24C106D3007AF685 /* world2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18A350CE24C106D3007AF685 /* world2.gif */; };
 		690DAA5B24BFDCA700350FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690DAA5A24BFDCA700350FDD /* AppDelegate.swift */; };
 		690DAA5D24BFDCA700350FDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690DAA5C24BFDCA700350FDD /* SceneDelegate.swift */; };
 		690DAA5F24BFDCA700350FDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690DAA5E24BFDCA700350FDD /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18A350CA24C100E1007AF685 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		18A350CC24C10232007AF685 /* world.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = world.gif; sourceTree = "<group>"; };
+		18A350CE24C106D3007AF685 /* world2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = world2.gif; sourceTree = "<group>"; };
 		690DAA5724BFDCA700350FDD /* environmenTELL2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = environmenTELL2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		690DAA5A24BFDCA700350FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		690DAA5C24BFDCA700350FDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +68,9 @@
 				690DAA5C24BFDCA700350FDD /* SceneDelegate.swift */,
 				690DAA5E24BFDCA700350FDD /* ViewController.swift */,
 				690DAA6024BFDCA700350FDD /* Main.storyboard */,
+				18A350CE24C106D3007AF685 /* world2.gif */,
+				18A350CC24C10232007AF685 /* world.gif */,
+				18A350CA24C100E1007AF685 /* Swift+Gif.swift */,
 				690DAA6624BFDCA900350FDD /* Assets.xcassets */,
 				690DAA6824BFDCA900350FDD /* LaunchScreen.storyboard */,
 				690DAA6B24BFDCA900350FDD /* Info.plist */,
@@ -129,8 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				690DAA6A24BFDCA900350FDD /* LaunchScreen.storyboard in Resources */,
+				18A350CD24C10232007AF685 /* world.gif in Resources */,
 				690DAA6724BFDCA900350FDD /* Assets.xcassets in Resources */,
 				690DAA6224BFDCA700350FDD /* Main.storyboard in Resources */,
+				18A350CF24C106D3007AF685 /* world2.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +156,7 @@
 				690DAA6524BFDCA700350FDD /* environmenTELL2020.xcdatamodeld in Sources */,
 				690DAA5B24BFDCA700350FDD /* AppDelegate.swift in Sources */,
 				690DAA5D24BFDCA700350FDD /* SceneDelegate.swift in Sources */,
+				18A350CB24C100E1007AF685 /* Swift+Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
