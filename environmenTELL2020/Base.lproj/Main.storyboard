@@ -648,7 +648,7 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="InP-OW-Ea6" kind="presentation" modalPresentationStyle="fullScreen" id="iDv-d2-DMm"/>
+                                                    <segue destination="InP-OW-Ea6" kind="presentation" modalPresentationStyle="fullScreen" id="Jix-oB-kwJ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XrR-4o-Zwd">
@@ -752,7 +752,7 @@ two hackathons. Fun fact: her favorite animal is the penguin!!
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vtA-Bd-KUd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1650.7246376811595" y="1161.8303571428571"/>
+            <point key="canvasLocation" x="1761" y="1183"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fdA-4f-Fpl">
@@ -762,40 +762,42 @@ two hackathons. Fun fact: her favorite animal is the penguin!!
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEy-Bj-PTI">
-                                <rect key="frame" x="0.0" y="-2" width="414" height="908"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.41176470590000003" green="0.76470588240000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBk-5V-S6g">
-                                <rect key="frame" x="156" y="750" width="102" height="60"/>
+                                <rect key="frame" x="0.0" y="27" width="102" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                                <connections>
-                                    <segue destination="InP-OW-Ea6" kind="presentation" modalPresentationStyle="fullScreen" id="DzU-ab-RCo"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pollution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IcU-51-xfQ">
-                                <rect key="frame" x="110" y="69" width="215" height="58"/>
+                                <rect key="frame" x="100" y="69" width="215" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPD-M2-JXZ">
+                                <rect key="frame" x="45" y="121" width="363" height="738"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Marine pollution varies from two main categories: chemical or trash 
+Every year, over 1 million seabirds die and 100,000 marine animals die from pollution
+14 billion pounds of trash are estimated to  fill the oceans each year, consisting of mainly plastics and styrofoam
+Factories burning Toxic metals like Mercury can pollute Clouds and precipitate into bodies of water as acid rain
+This endangers the wildlife who use bodies of water as habitats and humans who can be exposed to poisoning when consuming Seafood
+The Great Pacific Garbage Patch is a 617,000 square mile garbage patch (AKA 3 times bigger than France)</mutableString>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.41176470588235292" green="0.76470588235294112" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="M5a-91-hli"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jrz-1P-7rK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2603" y="2628"/>
+            <point key="canvasLocation" x="2498.5507246376815" y="2694.6428571428569"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ngR-8l-rtk">
@@ -805,135 +807,68 @@ two hackathons. Fun fact: her favorite animal is the penguin!!
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Water" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRP-vF-i7S">
-                                <rect key="frame" x="146" y="108" width="123" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dq4-cn-CAX">
-                                <rect key="frame" x="30" y="765" width="102" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Pollution"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4IG-KW-8jl">
-                                <rect key="frame" x="156" y="765" width="102" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Oil Spills"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHw-qC-Pfg">
-                                <rect key="frame" x="281" y="765" width="102" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Sea Life"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHA-DW-PFc">
-                                <rect key="frame" x="30" y="208" width="353" height="449"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The Earth’s oceans, rivers, ponds, and lakes are in trouble. Every year, over 100, 000 marine wildlife die from plastic ingestion or entanglement from balloons and plastic bags. It is estimated that by 2050 there will be more plastic in our water than marine wildlife, with at least 937 million tons of plastic and 895 million tons of fish. Click below to learn more and how you can contribute to saving the Earth.
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AiG-ZD-mtg">
-                                <rect key="frame" x="0.0" y="-6" width="414" height="908"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.41176470590000003" green="0.76470588240000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zN8-R1-kxn">
-                                <rect key="frame" x="281" y="802" width="102" height="60"/>
+                                <rect key="frame" x="292" y="802" width="102" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Sea Life"/>
-                                <connections>
-                                    <segue destination="gE5-er-TvA" kind="presentation" modalPresentationStyle="fullScreen" id="mgb-Xa-8m7"/>
-                                </connections>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
+                                <state key="normal" title="Sea Life">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WlZ-Cx-aTY">
-                                <rect key="frame" x="156" y="802" width="102" height="60"/>
+                                <rect key="frame" x="150" y="802" width="113" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Oil Spills"/>
-                                <connections>
-                                    <segue destination="nIZ-KW-tjt" kind="presentation" modalPresentationStyle="fullScreen" id="8dq-C3-nWM"/>
-                                </connections>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
+                                <state key="normal" title="Oil Spills">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F04-IQ-UwL">
-                                <rect key="frame" x="20" y="802" width="102" height="60"/>
+                                <rect key="frame" x="13" y="802" width="119" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Pollution"/>
-                                <connections>
-                                    <segue destination="gBR-3C-Cl9" kind="presentation" modalPresentationStyle="fullScreen" id="oc1-FE-FNQ"/>
-                                </connections>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
+                                <state key="normal" title="Pollution">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYM-sE-TRd">
-                                <rect key="frame" x="20" y="70" width="102" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="SAV-qb-dek" kind="presentation" modalPresentationStyle="fullScreen" id="FOU-5f-OGt"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="7SJ-nu-OUx"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="58f-ir-ZjZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3332" y="2138"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="cyG-tf-rYd">
-            <objects>
-                <viewController id="nIZ-KW-tjt" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="UAC-p1-3oe">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ub7-3h-2nK">
-                                <rect key="frame" x="0.0" y="-2" width="414" height="908"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.41176470590000003" green="0.76470588240000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Te-Tp-CfU">
-                                <rect key="frame" x="156" y="766" width="102" height="60"/>
+                                <rect key="frame" x="16" y="44" width="76" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                                <connections>
-                                    <segue destination="InP-OW-Ea6" kind="presentation" modalPresentationStyle="fullScreen" id="jKh-hA-RaP"/>
-                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oil Spills" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jML-GJ-0zE">
-                                <rect key="frame" x="103" y="72" width="209" height="58"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4S-nH-arx">
+                                <rect key="frame" x="11" y="170" width="391" height="294"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="50"/>
+                                <string key="text">The Earth’s oceans, rivers, ponds, and lakes are in trouble. Every year, over 100, 000 marine wildlife die from plastic ingestion or entanglement from balloons and plastic bags. It is estimated that by 2050 there will be more plastic in our water than marine wildlife, with at least 937 million tons of plastic and 895 million tons of fish. Click below to learn more and how you can contribute to saving the Earth.</string>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click below to learn more and how you can contribute to saving the Earth" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gow-z9-Mav">
+                                <rect key="frame" x="20" y="660" width="374" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Water" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="irJ-Ox-ut7">
+                                <rect key="frame" x="104" y="75" width="206" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="72"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="xbr-lH-lNk"/>
+                        <color key="backgroundColor" red="0.41176470588235292" green="0.76470588235294112" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="7SJ-nu-OUx"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wGY-k0-PDr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="58f-ir-ZjZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3428" y="3011"/>
+            <point key="canvasLocation" x="3331.884057971015" y="2137.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8X8-6a-ukR">
@@ -943,40 +878,42 @@ two hackathons. Fun fact: her favorite animal is the penguin!!
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDA-Tz-UUa">
-                                <rect key="frame" x="0.0" y="-11" width="414" height="908"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.41176470590000003" green="0.76470588240000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7k6-iT-O83">
-                                <rect key="frame" x="156" y="790" width="102" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="InP-OW-Ea6" kind="presentation" modalPresentationStyle="fullScreen" id="Jha-Tq-qGC"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sea Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMm-t2-bpi">
-                                <rect key="frame" x="113" y="77" width="188" height="58"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sea Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Se2-ng-pPT">
+                                <rect key="frame" x="100" y="77" width="188" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbA-HL-Luv">
+                                <rect key="frame" x="6" y="33" width="102" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1U5-eg-GGf">
+                                <rect key="frame" x="50" y="141" width="363" height="719"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">More than 3 million whales have been slaughtered due to the whaling business
+Maui dolphins are critically endangered due to deaths by commercial fishing nets
+Oil pits kill up to 500,000 to 1 million birds every year
+Sea Otters are killed every year from boat strikes by unknowing vessels
+Gill nets, shrimp trawals, and longlines put sea turtles at very high risk
+As plastic breaks down, all marine animals are at risk to ingest microplastics and the toxic chemicals it gives off, such as polychlorinated biphenyls (PCB)</mutableString>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.41176470588235292" green="0.76470588235294112" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Er4-qH-S28"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fbg-Rl-KHE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4252" y="2548"/>
+            <point key="canvasLocation" x="4263.768115942029" y="2694.6428571428569"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JQg-K3-ww3">
@@ -998,7 +935,7 @@ two hackathons. Fun fact: her favorite animal is the penguin!!
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xws-4L-Kg7">
                                 <rect key="frame" x="30" y="208" width="353" height="449"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The air is obviously an extremely important factor for everything on earth. Many species, including us humans, need the different gases in the air in order to survive. Some of the gases that can be found in the air include oxygen, nitrogen, and carbon dioxide. Knowing its importance, you would think that people would work to keep it as clean as possible. Wrong. People all over the world have been polluting the air to the point where it is unbreathable, leading to much deeper issues including global warming. Click below to learn more and how you can contribute to saving the Earth.</string>
+                                <mutableString key="text">The air is an extremely important factor for everything on earth. Many species, including us humans, need the different gases in the air in order to survive. Some of the gases that can be found in the air include oxygen, nitrogen, and carbon dioxide. Knowing its importance, you would think that people would work to keep it as clean as possible. Wrong. People all over the world have been polluting the air to the point where it is unbreathable, leading to much deeper issues including global warming. Click below to learn more and how you can contribute to saving the Earth.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1379,11 +1316,55 @@ You can recycle paper, plastic, metal, cardboard, cans, glass, batteries
             </objects>
             <point key="canvasLocation" x="3563.7681159420295" y="-1112.2767857142856"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="8Hz-px-u2J">
+            <objects>
+                <viewController id="ZUc-KW-g8m" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Qn-QJ-eZ5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oil Spills" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aw-dC-LEW">
+                                <rect key="frame" x="103" y="79" width="209" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rlX-Rl-mfB">
+                                <rect key="frame" x="0.0" y="44" width="102" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vG-YA-L9X">
+                                <rect key="frame" x="42" y="172" width="363" height="895"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">4.9 million liters of oil are spilled into the ocean every year
+A quart of Oil can affect up to 250,000 gallons of drinking water  
+The oil prevents mammals from insulating their fur coats and birds from repelling water from their wings, which can lead to both dying from Hypothermia
+Animals, like Whales, can lose reproduction abilities when ingesting oil, which will greatly lower the species’ population
+the BP Deep Horizon Oil Spill, the largest oil spill in history, spilled 168 million gallons (or 4 million barrels) of oil into the Gulf of Mexico
+The BPDH Oil Spill killed more than 102,000 birds from 93 species and affected more than 65,000 acres along Mississippi, Louisiana, Alabama, and Florida</mutableString>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.41176470590000003" green="0.76470588240000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="R2L-SQ-TgN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oef-02-Jhk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3331.884057971015" y="3245.7589285714284"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="uK0-6u-Me8"/>
-        <segue reference="iDv-d2-DMm"/>
-        <segue reference="FOU-5f-OGt"/>
+        <segue reference="lnf-tv-8kq"/>
         <segue reference="mHI-6h-jEG"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
