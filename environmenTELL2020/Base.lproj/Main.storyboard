@@ -26,17 +26,6 @@
                                     <segue destination="vzd-DX-e2v" kind="presentation" modalPresentationStyle="fullScreen" id="I8r-OF-8gJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6g-FV-fNH">
-                                <rect key="frame" x="133" y="823" width="198" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="The Three R's">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="7BK-3Z-MSa" kind="presentation" modalPresentationStyle="fullScreen" id="Eye-oE-lo6"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFF-pY-LGS">
                                 <rect key="frame" x="219" y="755" width="183" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -74,6 +63,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6g-FV-fNH">
+                                <rect key="frame" x="108" y="823" width="198" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="The Three R's">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7BK-3Z-MSa" kind="presentation" modalPresentationStyle="fullScreen" id="Eye-oE-lo6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3803921569" green="0.77647058820000003" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="gFU-nE-cqu"/>
@@ -741,7 +741,7 @@ two hackathons. Fun fact: her favorite animal is the penguin!!
                                                 <rect key="frame" x="72" y="514" width="271" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
-                                                <color key="textColor" red="0.39755458049999998" green="0.62136130140000001" blue="0.88495291099999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.27969820207534246" green="0.5486140839342466" blue="0.93964041099999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="world2.gif" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fnj-Vk-TKh">
@@ -976,7 +976,7 @@ Donate to International Bird Rescue to provide support for the next natural disa
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhH-1m-uw9">
-                                                <rect key="frame" x="156" y="2179" width="102" height="60"/>
+                                                <rect key="frame" x="156" y="2270" width="102" height="60"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                 <state key="normal" title="Back">
@@ -1033,7 +1033,7 @@ Donate to International Bird Rescue to provide support for the next natural disa
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="0vr-ro-zBb" kind="presentation" modalPresentationStyle="fullScreen" id="xmB-MJ-cGK"/>
+                                    <segue destination="LF0-eL-ha4" kind="presentation" modalPresentationStyle="fullScreen" id="WVf-rS-Lfi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WlZ-Cx-aTY">
@@ -1101,6 +1101,102 @@ Donate to International Bird Rescue to provide support for the next natural disa
             <point key="canvasLocation" x="3331.884057971015" y="2137.5"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="PpN-Ki-mT4">
+            <objects>
+                <viewController id="LF0-eL-ha4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LdK-jr-sF8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Kc-wn-hiK">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9mH-V7-5AE">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sea Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vC6-iq-Oid">
+                                                <rect key="frame" x="113" y="52" width="188" height="58"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="50"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQZ-Ze-sIG">
+                                                <rect key="frame" x="26" y="152" width="363" height="715"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">More than 3 million whales have been slaughtered due to the whaling business
+Maui dolphins are critically endangered due to deaths by commercial fishing nets
+Oil pits kill up to 500,000 to 1 million birds every year
+Sea Otters are killed every year from boat strikes by unknowing vessels
+Gill nets, shrimp trawals, and longlines put sea turtles at very high risk
+As plastic breaks down, all marine animals are at risk to ingest microplastics and the toxic chemicals it gives off, such as polychlorinated biphenyls (PCB)</mutableString>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pl4-eQ-kZ2">
+                                                <rect key="frame" x="75" y="971" width="264" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6j-PY-arb">
+                                                <rect key="frame" x="26" y="1068" width="363" height="715"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">More than 3 million whales have been slaughtered due to the whaling business
+Maui dolphins are critically endangered due to deaths by commercial fishing nets
+Oil pits kill up to 500,000 to 1 million birds every year
+Sea Otters are killed every year from boat strikes by unknowing vessels
+Gill nets, shrimp trawals, and longlines put sea turtles at very high risk
+As plastic breaks down, all marine animals are at risk to ingest microplastics and the toxic chemicals it gives off, such as polychlorinated biphenyls (PCB)</mutableString>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqv-Eo-IKx">
+                                                <rect key="frame" x="91" y="1864" width="233" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="InP-OW-Ea6" kind="presentation" modalPresentationStyle="fullScreen" id="jE6-hF-SUr"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.41176470590000003" green="0.76470588240000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2000" id="p3F-pE-Upc"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="9mH-V7-5AE" firstAttribute="leading" secondItem="2Kc-wn-hiK" secondAttribute="leading" id="A4u-UZ-GA7"/>
+                                    <constraint firstAttribute="trailing" secondItem="9mH-V7-5AE" secondAttribute="trailing" id="WT7-1M-FEC"/>
+                                    <constraint firstAttribute="bottom" secondItem="9mH-V7-5AE" secondAttribute="bottom" id="joY-XZ-YwC"/>
+                                    <constraint firstItem="9mH-V7-5AE" firstAttribute="top" secondItem="2Kc-wn-hiK" secondAttribute="top" id="uKa-nI-Ovu"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.41176470590000003" green="0.76470588240000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2Kc-wn-hiK" firstAttribute="top" secondItem="LdK-jr-sF8" secondAttribute="top" id="Ai7-rg-v6o"/>
+                            <constraint firstItem="2Kc-wn-hiK" firstAttribute="leading" secondItem="gge-pd-2ed" secondAttribute="leading" id="MaK-CK-Elx"/>
+                            <constraint firstAttribute="bottom" secondItem="2Kc-wn-hiK" secondAttribute="bottom" id="SOP-Fu-DIY"/>
+                            <constraint firstItem="2Kc-wn-hiK" firstAttribute="trailing" secondItem="gge-pd-2ed" secondAttribute="trailing" id="hCp-om-Igp"/>
+                            <constraint firstItem="9mH-V7-5AE" firstAttribute="width" secondItem="LdK-jr-sF8" secondAttribute="width" id="kBr-d8-Kys"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gge-pd-2ed"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="2000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="byB-UX-lM1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4313.04347826087" y="3123.8839285714284"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="JQg-K3-ww3">
             <objects>
                 <viewController id="1JO-J7-Qz7" sceneMemberID="viewController">
@@ -1145,7 +1241,7 @@ Donate to International Bird Rescue to provide support for the next natural disa
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="lyS-rg-hKe" kind="presentation" modalPresentationStyle="fullScreen" id="7Ey-mJ-8Yz"/>
+                                    <segue destination="iWc-t0-FDj" kind="presentation" modalPresentationStyle="fullScreen" id="UDh-N5-A07"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XL-5R-pQT">
@@ -1167,6 +1263,104 @@ Donate to International Bird Rescue to provide support for the next natural disa
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XIE-u1-0Yt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4542" y="894"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="277-OB-JDi">
+            <objects>
+                <viewController id="iWc-t0-FDj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YpB-YN-YSM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Of8-bC-Mhs">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EdZ-KV-dti">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pollution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTt-kZ-VMc">
+                                                <rect key="frame" x="118" y="52" width="179" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbc-vw-5z0">
+                                                <rect key="frame" x="31" y="169" width="352" height="1102"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">💨Air pollution occurs when harmful or too many particles get mixed in with the air.
+💨Some common pollutants include soot, smoke, mold, pollen, methane, carbon dioxide, lead, and carbon monoxide.
+💨Air pollution can be caused by car and truck exhausts, dust, factories, volcanoes, wildfires, mold spores, and pollen.
+💨In 2016, about 4.2 million premature deaths were caused by bad air quality, most in low and middle income countries.
+💨Air pollution has also been shown to lead to higher rates of heart disease, stroke, cancer, and respiratory disease.
+💨Pollution can also lead to short term problems such as sneezing and coughing, 
+💨Many of the common pollutants, including carbon dioxide, are proven to lead to global warming.
+💨Air pollution can also have other environmental impacts such as harming forests/crops, changing/depleting nutrients in soil/waterways, and damaging monuments/statues.
+</mutableString>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pn4-US-LvA">
+                                                <rect key="frame" x="75" y="1279" width="264" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8t-kf-Znu">
+                                                <rect key="frame" x="31" y="1346" width="352" height="871"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">💨Choose walking or biking over driving places if possible to reduce gas burning. Also try to take public transportation or carpool with others.
+💨If you are buying a new car, you can also try to choose cars that get better miles per gallon or choose an electric powered car.
+💨Another way to reduce air pollution is to look into your power provider and see if there is any way your power can be supplied through wind or solar power.
+💨You can also try to buy food locally as this cuts down the fossil fuels being burned by the trucks or planes that would normally carry your food.
+💨Some small ways to lessen fossil fuels, which can help reduce air pollution, include turning off lights and appliances when they are not being used and using energy efficient light bulbs.</mutableString>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QA4-BA-BoV">
+                                                <rect key="frame" x="156" y="2304" width="102" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="1JO-J7-Qz7" kind="presentation" modalPresentationStyle="fullScreen" id="rwF-GG-KJb"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.85098039219999999" green="0.95294117649999999" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2500" id="hqO-OV-YDy"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="EdZ-KV-dti" firstAttribute="top" secondItem="Of8-bC-Mhs" secondAttribute="top" id="Eb3-DK-8wP"/>
+                                    <constraint firstAttribute="trailing" secondItem="EdZ-KV-dti" secondAttribute="trailing" id="FUj-tw-8Ks"/>
+                                    <constraint firstItem="EdZ-KV-dti" firstAttribute="leading" secondItem="Of8-bC-Mhs" secondAttribute="leading" id="gEf-22-AeK"/>
+                                    <constraint firstAttribute="bottom" secondItem="EdZ-KV-dti" secondAttribute="bottom" id="thR-4v-jTn"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85098039219999999" green="0.95294117649999999" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Of8-bC-Mhs" secondAttribute="bottom" id="2OR-vb-T5f"/>
+                            <constraint firstItem="EdZ-KV-dti" firstAttribute="width" secondItem="YpB-YN-YSM" secondAttribute="width" id="JPF-aP-fGl"/>
+                            <constraint firstItem="Of8-bC-Mhs" firstAttribute="leading" secondItem="hE1-X4-Ecl" secondAttribute="leading" id="LQr-7X-b1d"/>
+                            <constraint firstItem="Of8-bC-Mhs" firstAttribute="trailing" secondItem="hE1-X4-Ecl" secondAttribute="trailing" id="bum-0R-crj"/>
+                            <constraint firstItem="Of8-bC-Mhs" firstAttribute="top" secondItem="YpB-YN-YSM" secondAttribute="top" id="sGW-HH-p5c"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hE1-X4-Ecl"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="2500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tfq-wr-MnS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5550.7246376811599" y="2137.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nTO-vI-sTZ">
@@ -1267,199 +1461,6 @@ Donate to International Bird Rescue to provide support for the next natural disa
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dp5-xu-Krz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5550.7246376811599" y="-127.23214285714285"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="PBv-G1-J8E">
-            <objects>
-                <viewController id="0vr-ro-zBb" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0vO-E7-XSV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rAV-cn-xWv">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aeX-Gq-YyQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sea Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HiV-d5-E2b">
-                                                <rect key="frame" x="113" y="52" width="188" height="58"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="50"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pwd-k4-kkl">
-                                                <rect key="frame" x="26" y="155" width="363" height="715"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">More than 3 million whales have been slaughtered due to the whaling business
-Maui dolphins are critically endangered due to deaths by commercial fishing nets
-Oil pits kill up to 500,000 to 1 million birds every year
-Sea Otters are killed every year from boat strikes by unknowing vessels
-Gill nets, shrimp trawals, and longlines put sea turtles at very high risk
-As plastic breaks down, all marine animals are at risk to ingest microplastics and the toxic chemicals it gives off, such as polychlorinated biphenyls (PCB)</mutableString>
-                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hr7-IT-6Vp">
-                                                <rect key="frame" x="75" y="971" width="264" height="59"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8L-g1-23f">
-                                                <rect key="frame" x="26" y="1038" width="363" height="715"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">More than 3 million whales have been slaughtered due to the whaling business
-Maui dolphins are critically endangered due to deaths by commercial fishing nets
-Oil pits kill up to 500,000 to 1 million birds every year
-Sea Otters are killed every year from boat strikes by unknowing vessels
-Gill nets, shrimp trawals, and longlines put sea turtles at very high risk
-As plastic breaks down, all marine animals are at risk to ingest microplastics and the toxic chemicals it gives off, such as polychlorinated biphenyls (PCB)</mutableString>
-                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFt-uf-o5f">
-                                                <rect key="frame" x="181" y="1852" width="52" height="41"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                <state key="normal" title="Back">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.41176470590000003" green="0.76470588240000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="2000" id="DDv-qf-kLO"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="aeX-Gq-YyQ" firstAttribute="leading" secondItem="rAV-cn-xWv" secondAttribute="leading" id="2hV-6I-yME"/>
-                                    <constraint firstAttribute="trailing" secondItem="aeX-Gq-YyQ" secondAttribute="trailing" id="WsB-8C-Gte"/>
-                                    <constraint firstAttribute="bottom" secondItem="aeX-Gq-YyQ" secondAttribute="bottom" id="hba-cm-Dw6"/>
-                                    <constraint firstItem="aeX-Gq-YyQ" firstAttribute="top" secondItem="rAV-cn-xWv" secondAttribute="top" id="nxT-n8-cq3"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.41176470590000003" green="0.76470588240000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="rAV-cn-xWv" firstAttribute="trailing" secondItem="GFJ-aQ-djF" secondAttribute="trailing" id="Cct-TB-8ix"/>
-                            <constraint firstAttribute="bottom" secondItem="rAV-cn-xWv" secondAttribute="bottom" id="dT2-mh-tOr"/>
-                            <constraint firstItem="rAV-cn-xWv" firstAttribute="leading" secondItem="GFJ-aQ-djF" secondAttribute="leading" id="ubh-vw-B5j"/>
-                            <constraint firstItem="rAV-cn-xWv" firstAttribute="top" secondItem="0vO-E7-XSV" secondAttribute="top" id="w1f-1D-GSA"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="GFJ-aQ-djF"/>
-                    </view>
-                    <size key="freeformSize" width="414" height="2000"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RVF-Ga-EJB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4415.9420289855079" y="3123.8839285714284"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="bWA-QR-H5h">
-            <objects>
-                <viewController id="lyS-rg-hKe" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="fja-To-Wk9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LJZ-mr-Ful">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="2750"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="alR-ls-bYL">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ss1-Bb-QJc">
-                                                <rect key="frame" x="31" y="169" width="352" height="1045"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">💨Air pollution occurs when harmful or too many particles get mixed in with the air.
-💨Some common pollutants include soot, smoke, mold, pollen, methane, carbon dioxide, lead, and carbon monoxide.
-💨Air pollution can be caused by car and truck exhausts, dust, factories, volcanoes, wildfires, mold spores, and pollen.
-💨In 2016, about 4.2 million premature deaths were caused by bad air quality, most in low and middle income countries.
-💨Air pollution has also been shown to lead to higher rates of heart disease, stroke, cancer, and respiratory disease.
-💨Pollution can also lead to short term problems such as sneezing and coughing, 
-💨Many of the common pollutants, including carbon dioxide, are proven to lead to global warming.
-💨Air pollution can also have other environmental impacts such as harming forests/crops, changing/depleting nutrients in soil/waterways, and damaging monuments/statues.
-</mutableString>
-                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pollution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIS-c8-0B2">
-                                                <rect key="frame" x="118" y="76" width="179" height="59"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C49-57-D4g">
-                                                <rect key="frame" x="75" y="1312" width="264" height="59"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ch0-dq-afe">
-                                                <rect key="frame" x="156" y="2384" width="102" height="60"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                <state key="normal" title="Back">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="1JO-J7-Qz7" kind="presentation" modalPresentationStyle="fullScreen" id="jZM-2F-5it"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeX-bc-Qno">
-                                                <rect key="frame" x="31" y="1405" width="352" height="924"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">💨Choose walking or biking over driving places if possible to reduce gas burning. Also try to take public transportation or carpool with others.
-💨If  you are buying a new car, you can also try to choose cars that get better miles per gallon or choose an electric powered car.
-💨Another way to reduce air pollution is to look into your power provider and see if there is any way your power can be supplied through wind or solar power.
-💨You can also try to buy food locally as this cuts down the fossil fuels being burned by the trucks or planes that would normally carry your food.
-💨Some small ways to lessen fossil fuels, which can help reduce air pollution, include turning off lights and appliances when they are not being used and using energy efficient light bulbs.
-
-</mutableString>
-                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.85098039219999999" green="0.95294117649999999" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="2500" id="ymz-AW-cm0"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="alR-ls-bYL" firstAttribute="leading" secondItem="LJZ-mr-Ful" secondAttribute="leading" id="0rH-D0-sne"/>
-                                    <constraint firstItem="alR-ls-bYL" firstAttribute="top" secondItem="LJZ-mr-Ful" secondAttribute="top" id="LCE-Mm-1uE"/>
-                                    <constraint firstItem="alR-ls-bYL" firstAttribute="trailing" secondItem="LJZ-mr-Ful" secondAttribute="trailing" id="LdV-gK-OaJ"/>
-                                    <constraint firstItem="alR-ls-bYL" firstAttribute="bottom" secondItem="LJZ-mr-Ful" secondAttribute="bottom" id="XCn-Mo-7ev"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="2750" id="nIX-cM-ATp"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="LJZ-mr-Ful" firstAttribute="trailing" secondItem="ZIe-Pn-bZp" secondAttribute="trailing" id="JNr-2b-yH8"/>
-                            <constraint firstItem="LJZ-mr-Ful" firstAttribute="top" secondItem="fja-To-Wk9" secondAttribute="top" id="U3h-ud-GmJ"/>
-                            <constraint firstItem="alR-ls-bYL" firstAttribute="width" secondItem="fja-To-Wk9" secondAttribute="width" id="jK6-Pk-51h"/>
-                            <constraint firstAttribute="bottom" secondItem="LJZ-mr-Ful" secondAttribute="bottom" id="rW6-Z5-xSE"/>
-                            <constraint firstItem="LJZ-mr-Ful" firstAttribute="leading" secondItem="ZIe-Pn-bZp" secondAttribute="leading" id="zyT-fU-pdq"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="ZIe-Pn-bZp"/>
-                    </view>
-                    <size key="freeformSize" width="414" height="2500"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TyL-Mk-JdG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5547.826086956522" y="2379.9107142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DKt-hg-Je8">
@@ -1756,10 +1757,10 @@ You can recycle paper, plastic, metal, cardboard, cans, glass, batteries
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="jZM-2F-5it"/>
-        <segue reference="kRH-gF-qoK"/>
-        <segue reference="Lsq-FE-A7X"/>
-        <segue reference="g24-c0-L61"/>
+        <segue reference="uK0-6u-Me8"/>
+        <segue reference="Jix-oB-kwJ"/>
+        <segue reference="mFM-bF-1zL"/>
+        <segue reference="mHI-6h-jEG"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
