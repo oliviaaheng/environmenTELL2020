@@ -19,7 +19,9 @@
                                 <rect key="frame" x="20" y="755" width="147" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Deforestation"/>
+                                <state key="normal" title="Deforestation">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="vzd-DX-e2v" kind="presentation" modalPresentationStyle="fullScreen" id="I8r-OF-8gJ"/>
                                 </connections>
@@ -28,7 +30,9 @@
                                 <rect key="frame" x="133" y="823" width="198" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="The Three R's"/>
+                                <state key="normal" title="The Three R's">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="7BK-3Z-MSa" kind="presentation" modalPresentationStyle="fullScreen" id="Eye-oE-lo6"/>
                                 </connections>
@@ -37,7 +41,9 @@
                                 <rect key="frame" x="219" y="755" width="183" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Plants/Animals"/>
+                                <state key="normal" title="Plants/Animals">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="B0P-2z-Ee7" kind="presentation" modalPresentationStyle="fullScreen" id="t1V-K8-0il"/>
                                 </connections>
@@ -54,7 +60,9 @@
                                 <rect key="frame" x="20" y="44" width="102" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="SAV-qb-dek" kind="presentation" modalPresentationStyle="fullScreen" id="mFM-bF-1zL"/>
                                 </connections>
@@ -88,7 +96,9 @@
                                 <rect key="frame" x="156" y="802" width="102" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="MFg-Vi-RCS" kind="presentation" modalPresentationStyle="fullScreen" id="JBD-mD-aVp"/>
                                 </connections>
@@ -139,24 +149,32 @@
                                 <rect key="frame" x="182" y="285" width="51" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="A)  Oil"/>
+                                <state key="normal" title="A)  Oil">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXs-Iw-DmM">
                                 <rect key="frame" x="177" y="328" width="75" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="B)  Trash"/>
+                                <state key="normal" title="B)  Trash">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzK-6b-7Zh">
                                 <rect key="frame" x="148" y="420" width="118" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="D)  Chemicals"/>
+                                <state key="normal" title="D)  Chemicals">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Izd-3U-DC4">
                                 <rect key="frame" x="164" y="662" width="77" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="TjI-JK-WF4" kind="presentation" modalPresentationStyle="fullScreen" id="WUM-sv-9t8"/>
                                 </connections>
@@ -172,7 +190,9 @@
                                 <rect key="frame" x="138" y="371" width="153" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="C)  Sewage Water"/>
+                                <state key="normal" title="C)  Sewage Water">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.42269459370000001" green="0.76462489369999997" blue="0.80922144650000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -205,12 +225,16 @@
                                 <rect key="frame" x="192" y="291" width="30" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="Yes"/>
+                                <state key="normal" title="Yes">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tfu-ZD-7vb">
                                 <rect key="frame" x="168" y="633" width="77" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="004-w7-IBU" kind="presentation" modalPresentationStyle="fullScreen" id="sBa-TL-b7M"/>
                                 </connections>
@@ -226,7 +250,9 @@
                                 <rect key="frame" x="192" y="381" width="30" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="No"/>
+                                <state key="normal" title="No">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.84791032499863017" green="0.95297855139999998" blue="0.9487481713" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -264,18 +290,24 @@
                                 <rect key="frame" x="110" y="302" width="217" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="A) A Healthy Forest"/>
+                                <state key="normal" title="A) A Healthy Forest">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrK-JU-Uib">
                                 <rect key="frame" x="106" y="348" width="217" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="B) No Forest"/>
+                                <state key="normal" title="B) No Forest">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCW-fJ-I0I">
                                 <rect key="frame" x="176" y="664" width="77" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="oqh-m7-Jtk" kind="presentation" modalPresentationStyle="fullScreen" id="3jf-eL-nBq"/>
                                 </connections>
@@ -284,7 +316,9 @@
                                 <rect key="frame" x="106" y="399" width="217" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="C) An Unhealthy Forest"/>
+                                <state key="normal" title="C) An Unhealthy Forest">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.44911420349999998" green="0.80420523880000006" blue="0.54072409870000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -316,24 +350,32 @@
                                 <rect key="frame" x="89" y="299" width="236" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="A) Reduce, Reuse, Recycle "/>
+                                <state key="normal" title="A) Reduce, Reuse, Recycle ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFk-Vf-AZQ">
                                 <rect key="frame" x="89" y="353" width="224" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="B) Rethink, Redo, Restock"/>
+                                <state key="normal" title="B) Rethink, Redo, Restock">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ql6-fS-dJ9">
                                 <rect key="frame" x="71" y="407" width="282" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="C) Revive, Resuscitate, Renovate"/>
+                                <state key="normal" title="C) Revive, Resuscitate, Renovate">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ht-oC-r4g">
                                 <rect key="frame" x="185" y="714" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="ZYF-q4-Vn9" kind="presentation" modalPresentationStyle="fullScreen" id="giA-P6-zxJ"/>
                                 </connections>
@@ -349,7 +391,9 @@
                                 <rect key="frame" x="30" y="464" width="364" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="D) Reforestation, Renewable, Rehabilitate  "/>
+                                <state key="normal" title="D) Reforestation, Renewable, Rehabilitate  ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.44911420349999998" green="0.80420523880000006" blue="0.54072409870000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -380,24 +424,32 @@
                                 <rect key="frame" x="36" y="307" width="345" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="A) Animals who live in the cold will go extinct "/>
+                                <state key="normal" title="A) Animals who live in the cold will go extinct ">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bp0-SJ-nhs">
                                 <rect key="frame" x="80" y="367" width="236" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="B) Animals will reproduce more"/>
+                                <state key="normal" title="B) Animals will reproduce more">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJI-DK-3Ln">
                                 <rect key="frame" x="91" y="427" width="213" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="C) Plants will die more often"/>
+                                <state key="normal" title="C) Plants will die more often">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kvb-bV-5cR">
                                 <rect key="frame" x="191" y="656" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="G2i-57-AWJ" kind="presentation" modalPresentationStyle="fullScreen" id="WAw-dh-tsc"/>
                                 </connections>
@@ -413,7 +465,9 @@
                                 <rect key="frame" x="67" y="476" width="281" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="D) Plants will grow more because of the extra sunlight"/>
+                                <state key="normal" title="D) Plants will grow more because of the extra sunlight">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.44911420349999998" green="0.80420523880000006" blue="0.54072409870000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -444,24 +498,32 @@
                                 <rect key="frame" x="166" y="382" width="80" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                <state key="normal" title="B)  3000"/>
+                                <state key="normal" title="B)  3000">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZD-q2-k7R">
                                 <rect key="frame" x="171" y="483" width="75" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                <state key="normal" title="D)  4000"/>
+                                <state key="normal" title="D)  4000">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPM-8T-Se8">
                                 <rect key="frame" x="168" y="433" width="76" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                <state key="normal" title="C)  2026"/>
+                                <state key="normal" title="C)  2026">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68h-kT-4SQ">
                                 <rect key="frame" x="205" y="676" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="tgL-mM-jbw" kind="presentation" modalPresentationStyle="fullScreen" id="nDg-M3-Lwc"/>
                                 </connections>
@@ -477,7 +539,9 @@
                                 <rect key="frame" x="166" y="338" width="74" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                <state key="normal" title="A)  2050"/>
+                                <state key="normal" title="A)  2050">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.44507765770000002" green="0.76462745669999999" blue="0.80922311540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -508,18 +572,24 @@
                                 <rect key="frame" x="192" y="343" width="30" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="Yes"/>
+                                <state key="normal" title="Yes">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGk-9W-9ec">
                                 <rect key="frame" x="192" y="415" width="30" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="No"/>
+                                <state key="normal" title="No">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6m-cx-bpv">
                                 <rect key="frame" x="179" y="664" width="70" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question 9 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLZ-Qy-aDc">
                                 <rect key="frame" x="126" y="81" width="176" height="39"/>
@@ -612,80 +682,30 @@
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RSQ-2G-dXn">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2800"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="environmenTELL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1W0-aj-DpL">
-                                                <rect key="frame" x="64" y="64" width="287" height="40"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-07-16 at 11.10.22 PM" translatesAutoresizingMaskIntoConstraints="NO" id="FQq-qA-oTD">
+                                                <rect key="frame" x="-2372" y="-961" width="3252" height="4843"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="34"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Das-md-2cq">
-                                                <rect key="frame" x="172" y="416" width="55" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
-                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Quiz"/>
-                                                <connections>
-                                                    <segue destination="cZA-Ge-nWN" kind="presentation" modalPresentationStyle="fullScreen" id="0e4-gp-qa4"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqk-qW-mVz">
-                                                <rect key="frame" x="64" y="710" width="64" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
-                                                <state key="normal" title="Land">
-                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="MFg-Vi-RCS" kind="presentation" modalPresentationStyle="fullScreen" id="mHI-6h-jEG"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cl6-Zs-PgA">
-                                                <rect key="frame" x="170" y="710" width="75" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
-                                                <state key="normal" title="Water">
-                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="InP-OW-Ea6" kind="presentation" modalPresentationStyle="fullScreen" id="Jix-oB-kwJ"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XrR-4o-Zwd">
-                                                <rect key="frame" x="310" y="710" width="41" height="43"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
-                                                <state key="normal" title="Air">
-                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="1JO-J7-Qz7" kind="presentation" modalPresentationStyle="fullScreen" id="uK0-6u-Me8"/>
-                                                </connections>
-                                            </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="world2.gif" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fnj-Vk-TKh">
-                                                <rect key="frame" x="0.0" y="161" width="414" height="257"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scroll to learn about the Creators" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AsL-4C-DyE">
-                                                <rect key="frame" x="72" y="514" width="271" height="20"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
-                                                <color key="textColor" red="0.39755458049999998" green="0.62136130140000001" blue="0.88495291099999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIA-Jg-WLj">
-                                                <rect key="frame" x="125" y="971" width="148" height="40"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="environmenTELL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Whj-3P-7Zo">
+                                                <rect key="frame" x="74" y="74" width="287" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="34"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHy-sL-JHb">
-                                                <rect key="frame" x="202" y="1079" width="188" height="436"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prb-z2-x2u">
+                                                <rect key="frame" x="202" y="2359" width="188" height="381"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Arianna is a rising Junior at Atlantic City High School. She participates in the marine environmental club at her school and loves to share her knowledge with others. This is her second year with Kode With Klossy, but her first time making an app. She has participated in two hackathons and loves exploring the world of computer science. Fun Fact: She runs cross country.
+                                                <string key="text">Isabelle is a rising Senior at Ocean City High School.  She is the Vice President of OCHS’ Student Environmental Association and a student liaison to the Ocean City Environmental Commission.  This will be Isabelle’s third year with Kode With Klossy and she is excited to further her education in computer science.  Fun Fact: She plays both flute and piccolo!
+</string>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5B2-qc-Rc0">
+                                                <rect key="frame" x="202" y="2032" width="188" height="293"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Madeline is a rising Sophomore at Ocean City High School and likes learning about our world and sharing the information with her friends and family.   This is her second year with Kode With Klossy and LOVES all types of food (especially Korean Food).
 </string>
                                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -701,24 +721,75 @@ two hackathons. Fun fact: her favorite animal is the penguin!!
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5B2-qc-Rc0">
-                                                <rect key="frame" x="202" y="2032" width="188" height="293"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHy-sL-JHb">
+                                                <rect key="frame" x="202" y="1079" width="188" height="436"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Madeline is a rising Sophomore at Ocean City High School and likes learning about our world and sharing the information with her friends and family.   This is her second year with Kode With Klossy and LOVES all types of food (especially Korean Food).
+                                                <string key="text">Arianna is a rising Junior at Atlantic City High School. She participates in the marine environmental club at her school and loves to share her knowledge with others. This is her second year with Kode With Klossy, but her first time making an app. She has participated in two hackathons and loves exploring the world of computer science. Fun Fact: She runs cross country.
 </string>
                                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prb-z2-x2u">
-                                                <rect key="frame" x="202" y="2359" width="188" height="381"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIA-Jg-WLj">
+                                                <rect key="frame" x="125" y="971" width="148" height="40"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Isabelle is a rising Senior at Ocean City High School.  She is the Vice President of OCHS’ Student Environmental Association and a student liaison to the Ocean City Environmental Commission.  This will be Isabelle’s third year with Kode With Klossy and she is excited to further her education in computer science.  Fun Fact: She plays both flute and piccolo!
-</string>
-                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="34"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scroll to learn about the Creators" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AsL-4C-DyE">
+                                                <rect key="frame" x="72" y="514" width="271" height="20"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                                <color key="textColor" red="0.39755458049999998" green="0.62136130140000001" blue="0.88495291099999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="world2.gif" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fnj-Vk-TKh">
+                                                <rect key="frame" x="0.0" y="161" width="414" height="257"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XrR-4o-Zwd">
+                                                <rect key="frame" x="288" y="707" width="109" height="51"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="air">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="1JO-J7-Qz7" kind="presentation" modalPresentationStyle="fullScreen" id="uK0-6u-Me8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cl6-Zs-PgA">
+                                                <rect key="frame" x="153" y="705" width="120" height="51"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="water">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="InP-OW-Ea6" kind="presentation" modalPresentationStyle="fullScreen" id="Jix-oB-kwJ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqk-qW-mVz">
+                                                <rect key="frame" x="29" y="705" width="102" height="46"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Land" image="land">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="MFg-Vi-RCS" kind="presentation" modalPresentationStyle="fullScreen" id="mHI-6h-jEG"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Das-md-2cq">
+                                                <rect key="frame" x="172" y="416" width="55" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
+                                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Quiz"/>
+                                                <connections>
+                                                    <segue destination="cZA-Ge-nWN" kind="presentation" modalPresentationStyle="fullScreen" id="0e4-gp-qa4"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <color key="tintColor" red="0.64198108149999999" green="1" blue="0.61419226979999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -752,52 +823,199 @@ two hackathons. Fun fact: her favorite animal is the penguin!!
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vtA-Bd-KUd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1761" y="1183"/>
+            <point key="canvasLocation" x="1760.8695652173915" y="1181.9196428571429"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fdA-4f-Fpl">
             <objects>
                 <viewController id="gBR-3C-Cl9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sZc-Ui-7Gt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1750"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vBk-5V-S6g">
-                                <rect key="frame" x="0.0" y="27" width="102" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pollution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IcU-51-xfQ">
-                                <rect key="frame" x="100" y="69" width="215" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPD-M2-JXZ">
-                                <rect key="frame" x="45" y="121" width="363" height="738"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Marine pollution varies from two main categories: chemical or trash 
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Eg-3z-iLu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1750"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xT1-Tx-BlM">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1750"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPD-M2-JXZ">
+                                                <rect key="frame" x="26" y="141" width="363" height="692"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Marine pollution varies from two main categories: chemical or trash 
 Every year, over 1 million seabirds die and 100,000 marine animals die from pollution
 14 billion pounds of trash are estimated to  fill the oceans each year, consisting of mainly plastics and styrofoam
 Factories burning Toxic metals like Mercury can pollute Clouds and precipitate into bodies of water as acid rain
 This endangers the wildlife who use bodies of water as habitats and humans who can be exposed to poisoning when consuming Seafood
-The Great Pacific Garbage Patch is a 617,000 square mile garbage patch (AKA 3 times bigger than France)</mutableString>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+The Great Pacific Garbage Patch is a 617,000 square mile garbage patch (AKA 3 times bigger than France)</string>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pollution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IcU-51-xfQ">
+                                                <rect key="frame" x="100" y="52" width="215" height="58"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="50"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHI-O5-tbT">
+                                                <rect key="frame" x="75" y="914" width="264" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXQ-g2-rxF">
+                                                <rect key="frame" x="26" y="981" width="363" height="492"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Volunteer for beach/park clean-ups
+Reduce, Reuse, and recycle at home!
+Stop using single use plastic items, such as plastic bags
+Support plastic bans and environmental organizations
+Sign/start environmental petitions that will better your community
+Avoid spraying fertilizer before it rains and only apply half is reduce runoff</string>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2B-c6-X21">
+                                                <rect key="frame" x="156" y="1543" width="102" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="InP-OW-Ea6" kind="presentation" modalPresentationStyle="fullScreen" id="gsQ-BH-c9I"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.41176470588235292" green="0.76470588235294112" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1750" id="ggx-MO-rdk"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="xT1-Tx-BlM" firstAttribute="top" secondItem="9Eg-3z-iLu" secondAttribute="top" id="0kX-Et-eTz"/>
+                                    <constraint firstItem="xT1-Tx-BlM" firstAttribute="trailing" secondItem="9Eg-3z-iLu" secondAttribute="trailing" id="4x7-fS-vmI"/>
+                                    <constraint firstItem="xT1-Tx-BlM" firstAttribute="bottom" secondItem="9Eg-3z-iLu" secondAttribute="bottom" id="PbH-Bw-v7d"/>
+                                    <constraint firstItem="xT1-Tx-BlM" firstAttribute="leading" secondItem="9Eg-3z-iLu" secondAttribute="leading" id="b8O-Kq-duN"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.41176470588235292" green="0.76470588235294112" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9Eg-3z-iLu" firstAttribute="leading" secondItem="M5a-91-hli" secondAttribute="leading" id="2hv-cp-mWL"/>
+                            <constraint firstItem="xT1-Tx-BlM" firstAttribute="width" secondItem="sZc-Ui-7Gt" secondAttribute="width" id="KnI-SG-a6J"/>
+                            <constraint firstAttribute="bottom" secondItem="9Eg-3z-iLu" secondAttribute="bottom" id="ZNC-OK-wK6"/>
+                            <constraint firstItem="9Eg-3z-iLu" firstAttribute="trailing" secondItem="M5a-91-hli" secondAttribute="trailing" id="kHQ-YI-T7B"/>
+                            <constraint firstItem="9Eg-3z-iLu" firstAttribute="top" secondItem="sZc-Ui-7Gt" secondAttribute="top" id="rnO-vO-TRH"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="M5a-91-hli"/>
                     </view>
+                    <size key="freeformSize" width="414" height="1750"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jrz-1P-7rK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2498.5507246376815" y="2694.6428571428569"/>
+            <point key="canvasLocation" x="2371" y="3040"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Y0s-gt-I5W">
+            <objects>
+                <viewController id="urg-oq-dZf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NQJ-hx-z3H">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bcn-lr-7qz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uLu-SR-vfZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oil Spills" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YjX-Xp-w5B">
+                                                <rect key="frame" x="103" y="52" width="209" height="58"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="50"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRd-H3-jqX">
+                                                <rect key="frame" x="26" y="175" width="363" height="895"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">4.9 million liters of oil are spilled into the ocean every year
+A quart of Oil can affect up to 250,000 gallons of drinking water  
+The oil prevents mammals from insulating their fur coats and birds from repelling water from their wings, which can lead to both dying from Hypothermia
+Animals, like Whales, can lose reproduction abilities when ingesting oil, which will greatly lower the species’ population
+the BP Deep Horizon Oil Spill, the largest oil spill in history, spilled 168 million gallons (or 4 million barrels) of oil into the Gulf of Mexico
+The BPDH Oil Spill killed more than 102,000 birds from 93 species and affected more than 65,000 acres along Mississippi, Louisiana, Alabama, and Florida</string>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N8T-z5-RcC">
+                                                <rect key="frame" x="75" y="1194" width="264" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cc-iy-Vm7">
+                                                <rect key="frame" x="26" y="1325" width="363" height="780"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Avoid overfilling vehicle and boat tanks when pumping gas to prevent runoff into bodies of water
+Occasionally tighten bolts on boat engines to prevent leakage while the engine is running
+Keep absorbent pads on hand on boats to efficiently clean up small spills
+If you witness a spill, please notify the Coast Guard and State Spill Response Officer
+Donate to The Marine Mammal Center to help feed and Care for injured Marine Mammals rescued in times of danger
+Donate to International Bird Rescue to provide support for the next natural disaster, which will provide medicine and food for birds in need</mutableString>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhH-1m-uw9">
+                                                <rect key="frame" x="156" y="2179" width="102" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="InP-OW-Ea6" kind="presentation" modalPresentationStyle="fullScreen" id="kRH-gF-qoK"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.41176470590000003" green="0.76470588240000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2500" id="zXs-95-Z0N"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="uLu-SR-vfZ" secondAttribute="bottom" id="1ht-zK-HJW"/>
+                                    <constraint firstItem="uLu-SR-vfZ" firstAttribute="top" secondItem="bcn-lr-7qz" secondAttribute="top" id="Byg-0t-auI"/>
+                                    <constraint firstAttribute="trailing" secondItem="uLu-SR-vfZ" secondAttribute="trailing" id="ZWC-n9-XdF"/>
+                                    <constraint firstItem="uLu-SR-vfZ" firstAttribute="leading" secondItem="bcn-lr-7qz" secondAttribute="leading" id="m7T-od-QcE"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.41176470590000003" green="0.76470588240000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bcn-lr-7qz" firstAttribute="top" secondItem="NQJ-hx-z3H" secondAttribute="top" id="0VX-JP-cTW"/>
+                            <constraint firstItem="uLu-SR-vfZ" firstAttribute="width" secondItem="NQJ-hx-z3H" secondAttribute="width" id="K9a-UH-mSH"/>
+                            <constraint firstItem="bcn-lr-7qz" firstAttribute="trailing" secondItem="lg2-JF-vOr" secondAttribute="trailing" id="UOR-A5-FBT"/>
+                            <constraint firstItem="bcn-lr-7qz" firstAttribute="leading" secondItem="lg2-JF-vOr" secondAttribute="leading" id="aI3-Pk-CsZ"/>
+                            <constraint firstAttribute="bottom" secondItem="bcn-lr-7qz" secondAttribute="bottom" id="qu0-66-CII"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lg2-JF-vOr"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="2500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1V1-9a-qme" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3330" y="3531"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ngR-8l-rtk">
@@ -814,6 +1032,9 @@ The Great Pacific Garbage Patch is a 617,000 square mile garbage patch (AKA 3 ti
                                 <state key="normal" title="Sea Life">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="0vr-ro-zBb" kind="presentation" modalPresentationStyle="fullScreen" id="xmB-MJ-cGK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WlZ-Cx-aTY">
                                 <rect key="frame" x="150" y="802" width="113" height="60"/>
@@ -822,6 +1043,9 @@ The Great Pacific Garbage Patch is a 617,000 square mile garbage patch (AKA 3 ti
                                 <state key="normal" title="Oil Spills">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="urg-oq-dZf" kind="presentation" modalPresentationStyle="fullScreen" id="8bW-B3-cTi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F04-IQ-UwL">
                                 <rect key="frame" x="13" y="802" width="119" height="60"/>
@@ -830,6 +1054,9 @@ The Great Pacific Garbage Patch is a 617,000 square mile garbage patch (AKA 3 ti
                                 <state key="normal" title="Pollution">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="gBR-3C-Cl9" kind="presentation" modalPresentationStyle="fullScreen" id="6t6-pq-L3H"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYM-sE-TRd">
                                 <rect key="frame" x="16" y="44" width="76" height="34"/>
@@ -838,6 +1065,9 @@ The Great Pacific Garbage Patch is a 617,000 square mile garbage patch (AKA 3 ti
                                 <state key="normal" title="Back">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="SAV-qb-dek" kind="presentation" modalPresentationStyle="fullScreen" id="Lsq-FE-A7X"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4S-nH-arx">
                                 <rect key="frame" x="11" y="170" width="391" height="294"/>
@@ -871,51 +1101,6 @@ The Great Pacific Garbage Patch is a 617,000 square mile garbage patch (AKA 3 ti
             <point key="canvasLocation" x="3331.884057971015" y="2137.5"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="8X8-6a-ukR">
-            <objects>
-                <viewController id="gE5-er-TvA" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ejf-Hb-gkx">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sea Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Se2-ng-pPT">
-                                <rect key="frame" x="100" y="77" width="188" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbA-HL-Luv">
-                                <rect key="frame" x="6" y="33" width="102" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1U5-eg-GGf">
-                                <rect key="frame" x="50" y="141" width="363" height="719"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">More than 3 million whales have been slaughtered due to the whaling business
-Maui dolphins are critically endangered due to deaths by commercial fishing nets
-Oil pits kill up to 500,000 to 1 million birds every year
-Sea Otters are killed every year from boat strikes by unknowing vessels
-Gill nets, shrimp trawals, and longlines put sea turtles at very high risk
-As plastic breaks down, all marine animals are at risk to ingest microplastics and the toxic chemicals it gives off, such as polychlorinated biphenyls (PCB)</mutableString>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.41176470588235292" green="0.76470588235294112" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="Er4-qH-S28"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fbg-Rl-KHE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4263.768115942029" y="2694.6428571428569"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="JQg-K3-ww3">
             <objects>
                 <viewController id="1JO-J7-Qz7" sceneMemberID="viewController">
@@ -927,7 +1112,9 @@ As plastic breaks down, all marine animals are at risk to ingest microplastics a
                                 <rect key="frame" x="199" y="765" width="195" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Global Warming"/>
+                                <state key="normal" title="Global Warming">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="sLw-X2-LPH" kind="presentation" modalPresentationStyle="fullScreen" id="9F8-lm-A6t"/>
                                 </connections>
@@ -935,7 +1122,7 @@ As plastic breaks down, all marine animals are at risk to ingest microplastics a
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xws-4L-Kg7">
                                 <rect key="frame" x="30" y="208" width="353" height="449"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">The air is an extremely important factor for everything on earth. Many species, including us humans, need the different gases in the air in order to survive. Some of the gases that can be found in the air include oxygen, nitrogen, and carbon dioxide. Knowing its importance, you would think that people would work to keep it as clean as possible. Wrong. People all over the world have been polluting the air to the point where it is unbreathable, leading to much deeper issues including global warming. Click below to learn more and how you can contribute to saving the Earth.</mutableString>
+                                <string key="text">The air is an extremely important factor for everything on earth. Many species, including us humans, need the different gases in the air in order to survive. Some of the gases that can be found in the air include oxygen, nitrogen, and carbon dioxide. Knowing its importance, you would think that people would work to keep it as clean as possible. Wrong. People all over the world have been polluting the air to the point where it is unbreathable, leading to much deeper issues including global warming. Click below to learn more and how you can contribute to saving the Earth.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -954,22 +1141,26 @@ As plastic breaks down, all marine animals are at risk to ingest microplastics a
                                 <rect key="frame" x="30" y="765" width="102" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Pollution"/>
+                                <state key="normal" title="Pollution">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
-                                    <segue destination="7aR-bX-7Yf" kind="presentation" modalPresentationStyle="fullScreen" id="sdJ-Ct-9Cv"/>
+                                    <segue destination="lyS-rg-hKe" kind="presentation" modalPresentationStyle="fullScreen" id="7Ey-mJ-8Yz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XL-5R-pQT">
                                 <rect key="frame" x="20" y="44" width="102" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="SAV-qb-dek" kind="presentation" modalPresentationStyle="fullScreen" id="lnf-tv-8kq"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.85258967529999996" green="0.95199476520000004" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.85098039219999999" green="0.95294117649999999" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="j0Y-7X-1jH"/>
                     </view>
                 </viewController>
@@ -978,70 +1169,297 @@ As plastic breaks down, all marine animals are at risk to ingest microplastics a
             <point key="canvasLocation" x="4542" y="894"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="vkV-dC-SrP">
-            <objects>
-                <viewController id="7aR-bX-7Yf" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="JlZ-X0-VAb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ch0-dq-afe">
-                                <rect key="frame" x="156" y="790" width="102" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="1JO-J7-Qz7" kind="presentation" modalPresentationStyle="fullScreen" id="jZM-2F-5it"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pollution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIS-c8-0B2">
-                                <rect key="frame" x="118" y="71" width="179" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.85098039219999999" green="0.95294117649999999" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="se7-tp-aiL"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JA2-Rz-DBg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4543" y="1575"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="nTO-vI-sTZ">
             <objects>
                 <viewController id="sLw-X2-LPH" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fWW-qt-62Q">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="3750"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lz-ee-P5h">
-                                <rect key="frame" x="156" y="790" width="102" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="1JO-J7-Qz7" kind="presentation" modalPresentationStyle="fullScreen" id="udW-o8-FkR"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Global Warming" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tv3-IY-yme">
-                                <rect key="frame" x="42" y="71" width="331" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MzZ-hf-ep4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="3750"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dbp-8P-58Z">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3750"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Global Warming" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tv3-IY-yme">
+                                                <rect key="frame" x="42" y="52" width="331" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMa-TG-Ocr">
+                                                <rect key="frame" x="31" y="148" width="352" height="1556"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">🔥Global warming is the term that refers to the rising average temperatures that are occurring all over the world.
+🔥Global warming and climate change are NOT the same thing. Climate change refers to the changes in the measure of climate, including temperature, precipitation, and wind patterns, over a long period of time.
+🔥Global warming is a result of the greenhouse gas effect. The greenhouse effect occurs when an excess amount of greenhouse gases get released into the environment.
+🔥Greenhouse gases are good at trapping heat. Some examples of this are water vapor, carbon dioxide, methane, ozone, nitrous oxide, and chlorofluorocarbons.
+🔥Humans burning fossil fuels and other activities have caused an increase in the production of greenhouse gases, leading to global warming.
+🔥There are also environmental causes for global warming including volcanic eruptions and changes in solar radiation from solar wind, sunspots, and the Earth’s position relative to the Sun.
+🔥With the amount of greenhouse gases released into the air rising, ice sheets, including Greenland and Antarctica, are starting to melt. The water that results from this will cause sea levels to rise, possibly to 2.3 feet by 2050.
+🔥Weather can also become more extreme due to global warming, including more intense storms, longer rain storms, and drier droughts.</mutableString>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lz-ee-P5h">
+                                                <rect key="frame" x="156" y="3626" width="102" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="1JO-J7-Qz7" kind="presentation" modalPresentationStyle="fullScreen" id="udW-o8-FkR"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Wb-Uw-NqX">
+                                                <rect key="frame" x="31" y="1961" width="352" height="1600"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">🔥Try to work on powering your home with renewable energy by choosing a utility company that generates their power using wind or solar. If that is not possible, you can try to look at your electric bill as many list ways to support renewable resources.
+🔥You can buy energy-efficient appliances to reduce your carbon dioxide output. A trick is to look for the Energy Star label when shopping for different appliances as it will tell you which are the most efficient.
+🔥Try to reduce your water waste by taking shorter showers, turning off the sink when brushing your teeth, and switch to WaterSense-labeled appliances. If just 100 homes used water efficient fixtures, it is estimated that 80,000 tons of global warming pollution could be avoided.
+🔥You can start planting your own fruits/vegetables or a tree as it will reduce your carbon footprint. These plants can help remove the carbon dioxide in the air.
+🔥Switch from old incandescent light bulbs to new compact fluorescent lights as they use only 25% as much energy and last longer.
+🔥Bring your own mug when going to get your morning coffee. Try to use as little paper as possible in order to save the trees, which help remove carbon dioxide from the air.
+🔥For the people who are still figuring out their future career, you might want to consider a “green career.” These careers can range from designing satellites for NASA to fixing wind energy generators.
+</mutableString>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nu2-e3-X8d">
+                                                <rect key="frame" x="75" y="1846" width="264" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.85098039219999999" green="0.95294117649999999" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="3750" id="OiQ-af-UUH"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="dbp-8P-58Z" firstAttribute="top" secondItem="MzZ-hf-ep4" secondAttribute="top" id="8ti-dS-rHw"/>
+                                    <constraint firstItem="dbp-8P-58Z" firstAttribute="bottom" secondItem="MzZ-hf-ep4" secondAttribute="bottom" id="JoQ-sT-L9b"/>
+                                    <constraint firstItem="dbp-8P-58Z" firstAttribute="leading" secondItem="MzZ-hf-ep4" secondAttribute="leading" id="mft-6z-0q9"/>
+                                    <constraint firstItem="dbp-8P-58Z" firstAttribute="trailing" secondItem="MzZ-hf-ep4" secondAttribute="trailing" id="nTT-wA-8Bc"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.85098039219999999" green="0.95294117649999999" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MzZ-hf-ep4" firstAttribute="top" secondItem="fWW-qt-62Q" secondAttribute="top" id="Ckv-i6-77p"/>
+                            <constraint firstItem="dbp-8P-58Z" firstAttribute="width" secondItem="fWW-qt-62Q" secondAttribute="width" id="jOw-S0-OHu"/>
+                            <constraint firstItem="MzZ-hf-ep4" firstAttribute="trailing" secondItem="hZ0-8K-qfd" secondAttribute="trailing" id="jmg-zt-Vql"/>
+                            <constraint firstItem="MzZ-hf-ep4" firstAttribute="leading" secondItem="hZ0-8K-qfd" secondAttribute="leading" id="qxc-Fl-7kS"/>
+                            <constraint firstAttribute="bottom" secondItem="MzZ-hf-ep4" secondAttribute="bottom" id="xVF-Jg-8rv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="hZ0-8K-qfd"/>
                     </view>
+                    <size key="freeformSize" width="414" height="3750"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dp5-xu-Krz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5412" y="894"/>
+            <point key="canvasLocation" x="5550.7246376811599" y="-127.23214285714285"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PBv-G1-J8E">
+            <objects>
+                <viewController id="0vr-ro-zBb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0vO-E7-XSV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rAV-cn-xWv">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aeX-Gq-YyQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sea Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HiV-d5-E2b">
+                                                <rect key="frame" x="113" y="52" width="188" height="58"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="50"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pwd-k4-kkl">
+                                                <rect key="frame" x="26" y="155" width="363" height="715"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">More than 3 million whales have been slaughtered due to the whaling business
+Maui dolphins are critically endangered due to deaths by commercial fishing nets
+Oil pits kill up to 500,000 to 1 million birds every year
+Sea Otters are killed every year from boat strikes by unknowing vessels
+Gill nets, shrimp trawals, and longlines put sea turtles at very high risk
+As plastic breaks down, all marine animals are at risk to ingest microplastics and the toxic chemicals it gives off, such as polychlorinated biphenyls (PCB)</mutableString>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hr7-IT-6Vp">
+                                                <rect key="frame" x="75" y="971" width="264" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8L-g1-23f">
+                                                <rect key="frame" x="26" y="1038" width="363" height="715"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">More than 3 million whales have been slaughtered due to the whaling business
+Maui dolphins are critically endangered due to deaths by commercial fishing nets
+Oil pits kill up to 500,000 to 1 million birds every year
+Sea Otters are killed every year from boat strikes by unknowing vessels
+Gill nets, shrimp trawals, and longlines put sea turtles at very high risk
+As plastic breaks down, all marine animals are at risk to ingest microplastics and the toxic chemicals it gives off, such as polychlorinated biphenyls (PCB)</mutableString>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFt-uf-o5f">
+                                                <rect key="frame" x="181" y="1852" width="52" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.41176470590000003" green="0.76470588240000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2000" id="DDv-qf-kLO"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="aeX-Gq-YyQ" firstAttribute="leading" secondItem="rAV-cn-xWv" secondAttribute="leading" id="2hV-6I-yME"/>
+                                    <constraint firstAttribute="trailing" secondItem="aeX-Gq-YyQ" secondAttribute="trailing" id="WsB-8C-Gte"/>
+                                    <constraint firstAttribute="bottom" secondItem="aeX-Gq-YyQ" secondAttribute="bottom" id="hba-cm-Dw6"/>
+                                    <constraint firstItem="aeX-Gq-YyQ" firstAttribute="top" secondItem="rAV-cn-xWv" secondAttribute="top" id="nxT-n8-cq3"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.41176470590000003" green="0.76470588240000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rAV-cn-xWv" firstAttribute="trailing" secondItem="GFJ-aQ-djF" secondAttribute="trailing" id="Cct-TB-8ix"/>
+                            <constraint firstAttribute="bottom" secondItem="rAV-cn-xWv" secondAttribute="bottom" id="dT2-mh-tOr"/>
+                            <constraint firstItem="rAV-cn-xWv" firstAttribute="leading" secondItem="GFJ-aQ-djF" secondAttribute="leading" id="ubh-vw-B5j"/>
+                            <constraint firstItem="rAV-cn-xWv" firstAttribute="top" secondItem="0vO-E7-XSV" secondAttribute="top" id="w1f-1D-GSA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GFJ-aQ-djF"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="2000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RVF-Ga-EJB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4415.9420289855079" y="3123.8839285714284"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bWA-QR-H5h">
+            <objects>
+                <viewController id="lyS-rg-hKe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="fja-To-Wk9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LJZ-mr-Ful">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="2750"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="alR-ls-bYL">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ss1-Bb-QJc">
+                                                <rect key="frame" x="31" y="169" width="352" height="1045"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">💨Air pollution occurs when harmful or too many particles get mixed in with the air.
+💨Some common pollutants include soot, smoke, mold, pollen, methane, carbon dioxide, lead, and carbon monoxide.
+💨Air pollution can be caused by car and truck exhausts, dust, factories, volcanoes, wildfires, mold spores, and pollen.
+💨In 2016, about 4.2 million premature deaths were caused by bad air quality, most in low and middle income countries.
+💨Air pollution has also been shown to lead to higher rates of heart disease, stroke, cancer, and respiratory disease.
+💨Pollution can also lead to short term problems such as sneezing and coughing, 
+💨Many of the common pollutants, including carbon dioxide, are proven to lead to global warming.
+💨Air pollution can also have other environmental impacts such as harming forests/crops, changing/depleting nutrients in soil/waterways, and damaging monuments/statues.
+</mutableString>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pollution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIS-c8-0B2">
+                                                <rect key="frame" x="118" y="76" width="179" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How To Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C49-57-D4g">
+                                                <rect key="frame" x="75" y="1312" width="264" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ch0-dq-afe">
+                                                <rect key="frame" x="156" y="2384" width="102" height="60"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <state key="normal" title="Back">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="1JO-J7-Qz7" kind="presentation" modalPresentationStyle="fullScreen" id="jZM-2F-5it"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeX-bc-Qno">
+                                                <rect key="frame" x="31" y="1405" width="352" height="924"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">💨Choose walking or biking over driving places if possible to reduce gas burning. Also try to take public transportation or carpool with others.
+💨If  you are buying a new car, you can also try to choose cars that get better miles per gallon or choose an electric powered car.
+💨Another way to reduce air pollution is to look into your power provider and see if there is any way your power can be supplied through wind or solar power.
+💨You can also try to buy food locally as this cuts down the fossil fuels being burned by the trucks or planes that would normally carry your food.
+💨Some small ways to lessen fossil fuels, which can help reduce air pollution, include turning off lights and appliances when they are not being used and using energy efficient light bulbs.
+
+</mutableString>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.85098039219999999" green="0.95294117649999999" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2500" id="ymz-AW-cm0"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="alR-ls-bYL" firstAttribute="leading" secondItem="LJZ-mr-Ful" secondAttribute="leading" id="0rH-D0-sne"/>
+                                    <constraint firstItem="alR-ls-bYL" firstAttribute="top" secondItem="LJZ-mr-Ful" secondAttribute="top" id="LCE-Mm-1uE"/>
+                                    <constraint firstItem="alR-ls-bYL" firstAttribute="trailing" secondItem="LJZ-mr-Ful" secondAttribute="trailing" id="LdV-gK-OaJ"/>
+                                    <constraint firstItem="alR-ls-bYL" firstAttribute="bottom" secondItem="LJZ-mr-Ful" secondAttribute="bottom" id="XCn-Mo-7ev"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="2750" id="nIX-cM-ATp"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="LJZ-mr-Ful" firstAttribute="trailing" secondItem="ZIe-Pn-bZp" secondAttribute="trailing" id="JNr-2b-yH8"/>
+                            <constraint firstItem="LJZ-mr-Ful" firstAttribute="top" secondItem="fja-To-Wk9" secondAttribute="top" id="U3h-ud-GmJ"/>
+                            <constraint firstItem="alR-ls-bYL" firstAttribute="width" secondItem="fja-To-Wk9" secondAttribute="width" id="jK6-Pk-51h"/>
+                            <constraint firstAttribute="bottom" secondItem="LJZ-mr-Ful" secondAttribute="bottom" id="rW6-Z5-xSE"/>
+                            <constraint firstItem="LJZ-mr-Ful" firstAttribute="leading" secondItem="ZIe-Pn-bZp" secondAttribute="leading" id="zyT-fU-pdq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZIe-Pn-bZp"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="2500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TyL-Mk-JdG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5547.826086956522" y="2379.9107142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DKt-hg-Je8">
@@ -1055,7 +1473,9 @@ As plastic breaks down, all marine animals are at risk to ingest microplastics a
                                 <rect key="frame" x="165" y="784" width="102" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="MFg-Vi-RCS" kind="presentation" modalPresentationStyle="fullScreen" id="yDc-HP-okL"/>
                                 </connections>
@@ -1107,7 +1527,9 @@ You can recycle paper, plastic, metal, cardboard, cans, glass, batteries
                                 <rect key="frame" x="156" y="791" width="102" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="MFg-Vi-RCS" kind="presentation" modalPresentationStyle="fullScreen" id="g24-c0-L61"/>
                                 </connections>
@@ -1193,24 +1615,32 @@ You can recycle paper, plastic, metal, cardboard, cans, glass, batteries
                                         <rect key="frame" x="50" y="273" width="327" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                        <state key="normal" title="A) Pick up the trash that people leave behind to keep our waters clean "/>
+                                        <state key="normal" title="A) Pick up the trash that people leave behind to keep our waters clean ">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="45i-Pg-jll">
                                         <rect key="frame" x="50" y="378" width="296" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                        <state key="normal" title="B) Hang out on the beach talking to friends while leaving their trash on the ground"/>
+                                        <state key="normal" title="B) Hang out on the beach talking to friends while leaving their trash on the ground">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="l27-t8-Wio">
                                         <rect key="frame" x="50" y="459" width="321" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                        <state key="normal" title="C) Hang around on their phone while other people pick up the trash "/>
+                                        <state key="normal" title="C) Hang around on their phone while other people pick up the trash ">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pyz-7w-KL6">
                                         <rect key="frame" x="191" y="705" width="32" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Next"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <segue destination="8Uy-PI-Lai" kind="presentation" modalPresentationStyle="fullScreen" id="65v-oC-5uM"/>
                                         </connections>
@@ -1236,6 +1666,7 @@ You can recycle paper, plastic, metal, cardboard, cans, glass, batteries
                                         <state key="normal">
                                             <string key="title">D) Look for the trash and have other people pick it up for them
 </string>
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
                                 </subviews>
@@ -1268,30 +1699,28 @@ You can recycle paper, plastic, metal, cardboard, cans, glass, batteries
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgu-dk-E8T">
-                                <rect key="frame" x="162" y="271" width="88" height="35"/>
+                                <rect key="frame" x="160" y="283" width="88" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="A)  Smoke"/>
+                                <state key="normal" title="A)  Smoke">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gc0-pn-OEF">
-                                <rect key="frame" x="162" y="326" width="94" height="35"/>
+                                <rect key="frame" x="160" y="338" width="94" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="B)  Oxygen"/>
+                                <state key="normal" title="B)  Oxygen">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQs-Qs-8hO">
-                                <rect key="frame" x="162" y="379" width="82" height="35"/>
+                                <rect key="frame" x="160" y="391" width="82" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="C)  Pollen"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edg-zm-2al">
-                                <rect key="frame" x="169" y="785" width="77" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
-                                <connections>
-                                    <segue destination="SbL-OO-1DF" kind="presentation" modalPresentationStyle="fullScreen" id="WXZ-Hu-4Qs"/>
-                                </connections>
+                                <state key="normal" title="C)  Pollen">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question 8 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcJ-Sc-nIb">
                                 <rect key="frame" x="122" y="66" width="176" height="39"/>
@@ -1301,10 +1730,19 @@ You can recycle paper, plastic, metal, cardboard, cans, glass, batteries
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1di-3e-lcU">
-                                <rect key="frame" x="162" y="431" width="72" height="35"/>
+                                <rect key="frame" x="160" y="443" width="72" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="D)  Mold"/>
+                                <state key="normal" title="D)  Mold">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJc-ff-aIM">
+                                <rect key="frame" x="169" y="704" width="77" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.85687917469999997" green="0.95297938589999998" blue="0.94874876740000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1316,59 +1754,19 @@ You can recycle paper, plastic, metal, cardboard, cans, glass, batteries
             </objects>
             <point key="canvasLocation" x="3563.7681159420295" y="-1112.2767857142856"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="8Hz-px-u2J">
-            <objects>
-                <viewController id="ZUc-KW-g8m" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3Qn-QJ-eZ5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oil Spills" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aw-dC-LEW">
-                                <rect key="frame" x="103" y="79" width="209" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rlX-Rl-mfB">
-                                <rect key="frame" x="0.0" y="44" width="102" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vG-YA-L9X">
-                                <rect key="frame" x="42" y="172" width="363" height="895"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">4.9 million liters of oil are spilled into the ocean every year
-A quart of Oil can affect up to 250,000 gallons of drinking water  
-The oil prevents mammals from insulating their fur coats and birds from repelling water from their wings, which can lead to both dying from Hypothermia
-Animals, like Whales, can lose reproduction abilities when ingesting oil, which will greatly lower the species’ population
-the BP Deep Horizon Oil Spill, the largest oil spill in history, spilled 168 million gallons (or 4 million barrels) of oil into the Gulf of Mexico
-The BPDH Oil Spill killed more than 102,000 birds from 93 species and affected more than 65,000 acres along Mississippi, Louisiana, Alabama, and Florida</mutableString>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.41176470590000003" green="0.76470588240000004" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="R2L-SQ-TgN"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oef-02-Jhk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3331.884057971015" y="3245.7589285714284"/>
-        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="uK0-6u-Me8"/>
-        <segue reference="lnf-tv-8kq"/>
-        <segue reference="mHI-6h-jEG"/>
+        <segue reference="jZM-2F-5it"/>
+        <segue reference="kRH-gF-qoK"/>
+        <segue reference="Lsq-FE-A7X"/>
+        <segue reference="g24-c0-L61"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
+        <image name="Screen Shot 2020-07-16 at 11.10.22 PM" width="529" height="532"/>
+        <image name="air" width="143" height="61"/>
+        <image name="land" width="150" height="69"/>
+        <image name="water" width="158" height="38"/>
         <image name="world2.gif" width="480" height="360"/>
     </resources>
 </document>
