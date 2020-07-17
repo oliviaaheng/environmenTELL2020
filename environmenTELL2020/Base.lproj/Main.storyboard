@@ -622,7 +622,7 @@
             <objects>
                 <viewController id="SbL-OO-1DF" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RHO-Wn-dF3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Is Global Warming and Climate change the same thing?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEf-Cs-IAE">
@@ -654,6 +654,9 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="4zw-8I-K3s" kind="presentation" modalPresentationStyle="fullScreen" id="H3x-n4-Vd1"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question 9 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLZ-Qy-aDc">
                                 <rect key="frame" x="126" y="81" width="176" height="39"/>
@@ -671,6 +674,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QoE-US-Ivn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3563.7681159420295" y="-1800"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8En-BO-MfY">
+            <objects>
+                <viewController id="4zw-8I-K3s" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hqd-kk-7G0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A1l-HD-7Ln">
+                                <rect key="frame" x="20" y="136" width="374" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Congrats on Finishing the Quiz!!  We are so proud of you!  Make sure to look through the other features of our app to learn about the questions you got wrong!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ZG-nQ-vHM">
+                                <rect key="frame" x="127" y="650" width="161" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back to the Home Page">
+                                    <color key="titleColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SAV-qb-dek" kind="show" id="f8D-E5-RTy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84731775519999997" green="1" blue="0.8744940162" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="qgv-ee-W61"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6VT-Za-fpD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4392.753623188406" y="-1801.3392857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Z7E-K0-ySl">
@@ -724,7 +762,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.87893948852263581" green="1" blue="0.88275311221314334" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="jVY-5g-RPF"/>
                     </view>
                 </viewController>
@@ -737,11 +775,11 @@
             <objects>
                 <viewController id="SAV-qb-dek" customClass="ViewController" customModule="environmenTELL2020" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fiw-EA-fR3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="2800"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="2746"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Yx-p6-hKZ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="2800"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="2746"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RSQ-2G-dXn">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2800"/>
@@ -880,6 +918,7 @@ two hackathons. Fun fact: her favorite animal is the penguin!!
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yWu-hV-1wv"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ApN-5P-Y0z"/>
                     <size key="freeformSize" width="414" height="2800"/>
                     <connections>
                         <outlet property="GifView" destination="Fnj-Vk-TKh" id="V7R-K6-Nzl"/>
@@ -1553,14 +1592,14 @@ As plastic breaks down, all marine animals are at risk to ingest microplastics a
             <objects>
                 <viewController id="7BK-3Z-MSa" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dLP-8a-iKM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t3H-ee-woj">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t3H-ee-woj">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1800"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vCs-EV-atS">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1800"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🔄" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tbx-RZ-dha">
                                                 <rect key="frame" x="25" y="159" width="65" height="72"/>
@@ -1663,8 +1702,16 @@ To determine your true needs and avoid impulse buys, try the three-day rule: if 
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Solution_article_slide_8-1" translatesAutoresizingMaskIntoConstraints="NO" id="VFO-8r-AQb">
+                                                <rect key="frame" x="112" y="1184" width="257" height="344"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Solution_article_slide_7" translatesAutoresizingMaskIntoConstraints="NO" id="6Oe-K2-CFn">
+                                                <rect key="frame" x="112" y="803" width="260" height="383"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBE-b5-VhR">
-                                                <rect key="frame" x="145" y="1374" width="105" height="35"/>
+                                                <rect key="frame" x="145" y="1677" width="105" height="35"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
                                                 <state key="normal" title="Back">
@@ -1677,18 +1724,16 @@ To determine your true needs and avoid impulse buys, try the three-day rule: if 
                                         </subviews>
                                         <color key="backgroundColor" red="0.3803921569" green="0.77647058820000003" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1500" id="bEi-Q3-jib"/>
+                                            <constraint firstAttribute="height" constant="1800" id="bEi-Q3-jib"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="vCs-EV-atS" firstAttribute="trailing" secondItem="vmf-aU-B2m" secondAttribute="trailing" id="BcU-uK-TYb"/>
-                                    <constraint firstItem="vCs-EV-atS" firstAttribute="leading" secondItem="vmf-aU-B2m" secondAttribute="leading" id="Ecg-DD-z8b"/>
-                                    <constraint firstItem="vCs-EV-atS" firstAttribute="top" secondItem="vmf-aU-B2m" secondAttribute="top" id="Evh-WJ-sjW"/>
-                                    <constraint firstItem="vCs-EV-atS" firstAttribute="bottom" secondItem="vmf-aU-B2m" secondAttribute="bottom" id="NRN-3o-Gyc"/>
+                                    <constraint firstItem="vCs-EV-atS" firstAttribute="trailing" secondItem="t3H-ee-woj" secondAttribute="trailing" id="BcU-uK-TYb"/>
+                                    <constraint firstItem="vCs-EV-atS" firstAttribute="leading" secondItem="t3H-ee-woj" secondAttribute="leading" id="Ecg-DD-z8b"/>
+                                    <constraint firstItem="vCs-EV-atS" firstAttribute="top" secondItem="t3H-ee-woj" secondAttribute="top" id="Evh-WJ-sjW"/>
+                                    <constraint firstItem="vCs-EV-atS" firstAttribute="bottom" secondItem="t3H-ee-woj" secondAttribute="bottom" id="NRN-3o-Gyc"/>
                                 </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="4ih-bw-4ZC"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="vmf-aU-B2m"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.3803921569" green="0.77647058820000003" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1701,7 +1746,7 @@ To determine your true needs and avoid impulse buys, try the three-day rule: if 
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vTW-gP-FKx"/>
                     </view>
-                    <size key="freeformSize" width="414" height="1500"/>
+                    <size key="freeformSize" width="414" height="1800"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8rO-Bs-xHM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2045,6 +2090,9 @@ To determine your true needs and avoid impulse buys, try the three-day rule: if 
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="SbL-OO-1DF" kind="show" id="abm-QK-ktD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.85687917469999997" green="0.95297938589999998" blue="0.94874876740000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2058,15 +2106,16 @@ To determine your true needs and avoid impulse buys, try the three-day rule: if 
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6t6-pq-L3H"/>
         <segue reference="3c5-Xg-y6N"/>
         <segue reference="h5N-9V-K4W"/>
-        <segue reference="mFM-bF-1zL"/>
+        <segue reference="f8D-E5-RTy"/>
         <segue reference="TgO-nQ-iEe"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="Screen Shot 2020-07-16 at 11.10.22 PM" width="529" height="532"/>
+        <image name="Solution_article_slide_7" width="800" height="1200"/>
+        <image name="Solution_article_slide_8-1" width="798" height="1045"/>
         <image name="air" width="143" height="61"/>
         <image name="land" width="150" height="69"/>
         <image name="water" width="158" height="38"/>
