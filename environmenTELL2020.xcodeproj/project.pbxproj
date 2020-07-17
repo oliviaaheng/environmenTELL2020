@@ -17,6 +17,15 @@
 		690DAA6524BFDCA700350FDD /* environmenTELL2020.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 690DAA6324BFDCA700350FDD /* environmenTELL2020.xcdatamodeld */; };
 		690DAA6724BFDCA900350FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690DAA6624BFDCA900350FDD /* Assets.xcassets */; };
 		690DAA6A24BFDCA900350FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690DAA6824BFDCA900350FDD /* LaunchScreen.storyboard */; };
+		CE3F99E024C1F0E600738C6B /* Q1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F99DF24C1F0E600738C6B /* Q1ViewController.swift */; };
+		CE3F99E224C1F34400738C6B /* Q2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F99E124C1F34400738C6B /* Q2ViewController.swift */; };
+		CE3F99E424C1F45300738C6B /* Q3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F99E324C1F45300738C6B /* Q3ViewController.swift */; };
+		CE3F99E624C1F53500738C6B /* Q4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F99E524C1F53500738C6B /* Q4ViewController.swift */; };
+		CE3F99E824C1F61C00738C6B /* Q5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F99E724C1F61C00738C6B /* Q5ViewController.swift */; };
+		CE3F99EA24C1F6FF00738C6B /* Q7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F99E924C1F6FF00738C6B /* Q7ViewController.swift */; };
+		CE3F99EC24C1F71000738C6B /* Q6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F99EB24C1F71000738C6B /* Q6ViewController.swift */; };
+		CE3F99EE24C1F89800738C6B /* Q8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F99ED24C1F89800738C6B /* Q8ViewController.swift */; };
+		CE3F99F024C1F98C00738C6B /* Q9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F99EF24C1F98C00738C6B /* Q9ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +41,15 @@
 		690DAA6624BFDCA900350FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		690DAA6924BFDCA900350FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		690DAA6B24BFDCA900350FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3F99DF24C1F0E600738C6B /* Q1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1ViewController.swift; sourceTree = "<group>"; };
+		CE3F99E124C1F34400738C6B /* Q2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q2ViewController.swift; sourceTree = "<group>"; };
+		CE3F99E324C1F45300738C6B /* Q3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q3ViewController.swift; sourceTree = "<group>"; };
+		CE3F99E524C1F53500738C6B /* Q4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q4ViewController.swift; sourceTree = "<group>"; };
+		CE3F99E724C1F61C00738C6B /* Q5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q5ViewController.swift; sourceTree = "<group>"; };
+		CE3F99E924C1F6FF00738C6B /* Q7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q7ViewController.swift; sourceTree = "<group>"; };
+		CE3F99EB24C1F71000738C6B /* Q6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q6ViewController.swift; sourceTree = "<group>"; };
+		CE3F99ED24C1F89800738C6B /* Q8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q8ViewController.swift; sourceTree = "<group>"; };
+		CE3F99EF24C1F98C00738C6B /* Q9ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q9ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +86,15 @@
 				690DAA5C24BFDCA700350FDD /* SceneDelegate.swift */,
 				690DAA5E24BFDCA700350FDD /* ViewController.swift */,
 				690DAA6024BFDCA700350FDD /* Main.storyboard */,
+				CE3F99EF24C1F98C00738C6B /* Q9ViewController.swift */,
+				CE3F99E724C1F61C00738C6B /* Q5ViewController.swift */,
+				CE3F99E924C1F6FF00738C6B /* Q7ViewController.swift */,
+				CE3F99ED24C1F89800738C6B /* Q8ViewController.swift */,
+				CE3F99EB24C1F71000738C6B /* Q6ViewController.swift */,
+				CE3F99E124C1F34400738C6B /* Q2ViewController.swift */,
+				CE3F99E324C1F45300738C6B /* Q3ViewController.swift */,
+				CE3F99E524C1F53500738C6B /* Q4ViewController.swift */,
+				CE3F99DF24C1F0E600738C6B /* Q1ViewController.swift */,
 				18A350CE24C106D3007AF685 /* world2.gif */,
 				18A350CC24C10232007AF685 /* world.gif */,
 				18A350CA24C100E1007AF685 /* Swift+Gif.swift */,
@@ -152,10 +179,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3F99E224C1F34400738C6B /* Q2ViewController.swift in Sources */,
+				CE3F99EE24C1F89800738C6B /* Q8ViewController.swift in Sources */,
+				CE3F99E024C1F0E600738C6B /* Q1ViewController.swift in Sources */,
 				690DAA5F24BFDCA700350FDD /* ViewController.swift in Sources */,
+				CE3F99EC24C1F71000738C6B /* Q6ViewController.swift in Sources */,
 				690DAA6524BFDCA700350FDD /* environmenTELL2020.xcdatamodeld in Sources */,
+				CE3F99E424C1F45300738C6B /* Q3ViewController.swift in Sources */,
+				CE3F99E624C1F53500738C6B /* Q4ViewController.swift in Sources */,
+				CE3F99EA24C1F6FF00738C6B /* Q7ViewController.swift in Sources */,
 				690DAA5B24BFDCA700350FDD /* AppDelegate.swift in Sources */,
+				CE3F99F024C1F98C00738C6B /* Q9ViewController.swift in Sources */,
 				690DAA5D24BFDCA700350FDD /* SceneDelegate.swift in Sources */,
+				CE3F99E824C1F61C00738C6B /* Q5ViewController.swift in Sources */,
 				18A350CB24C100E1007AF685 /* Swift+Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
