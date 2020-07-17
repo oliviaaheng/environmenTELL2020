@@ -1181,12 +1181,12 @@ two hackathons. Fun fact: her favorite animal is the penguin!!
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPD-M2-JXZ">
                                                 <rect key="frame" x="26" y="141" width="363" height="692"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Marine pollution varies from two main categories: chemical or trash 
-Every year, over 1 million seabirds die and 100,000 marine animals die from pollution
+                                                <mutableString key="text">🐚Marine pollution varies from two main categories: chemical or trash 
+🐚Every year, over 1 million seabirds die and 100,000 marine animals die from pollution
 14 billion pounds of trash are estimated to  fill the oceans each year, consisting of mainly plastics and styrofoam
-Factories burning Toxic metals like Mercury can pollute Clouds and precipitate into bodies of water as acid rain
-This endangers the wildlife who use bodies of water as habitats and humans who can be exposed to poisoning when consuming Seafood
-The Great Pacific Garbage Patch is a 617,000 square mile garbage patch (AKA 3 times bigger than France)</string>
+🐚Factories burning Toxic metals like Mercury can pollute Clouds and precipitate into bodies of water as acid rain
+🐚This endangers the wildlife who use bodies of water as habitats and humans who can be exposed to poisoning when consuming Seafood
+🐚The Great Pacific Garbage Patch is a 617,000 square mile garbage patch (AKA 3 times bigger than France)</mutableString>
                                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1201,12 +1201,12 @@ The Great Pacific Garbage Patch is a 617,000 square mile garbage patch (AKA 3 ti
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXQ-g2-rxF">
                                                 <rect key="frame" x="26" y="981" width="363" height="492"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Volunteer for beach/park clean-ups
-Reduce, Reuse, and recycle at home!
-Stop using single use plastic items, such as plastic bags
-Support plastic bans and environmental organizations
-Sign/start environmental petitions that will better your community
-Avoid spraying fertilizer before it rains and only apply half is reduce runoff</string>
+                                                <mutableString key="text">🐚Volunteer for beach/park clean-ups
+🐚Reduce, Reuse, and recycle at home!
+🐚Stop using single use plastic items, such as plastic bags
+🐚Support plastic bans and environmental organizations
+🐚Sign/start environmental petitions that will better your community
+🐚Avoid spraying fertilizer before it rains and only apply half is reduce runoff</mutableString>
                                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1284,12 +1284,12 @@ Avoid spraying fertilizer before it rains and only apply half is reduce runoff</
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRd-H3-jqX">
                                                 <rect key="frame" x="26" y="175" width="363" height="895"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">4.9 million liters of oil are spilled into the ocean every year
+                                                <mutableString key="text">🦆4.9 million liters of oil are spilled into the ocean every year
 A quart of Oil can affect up to 250,000 gallons of drinking water  
-The oil prevents mammals from insulating their fur coats and birds from repelling water from their wings, which can lead to both dying from Hypothermia
-Animals, like Whales, can lose reproduction abilities when ingesting oil, which will greatly lower the species’ population
+🦆The oil prevents mammals from insulating their fur coats and birds from repelling water from their wings, which can lead to both dying from Hypothermia
+🦆Animals, like Whales, can lose reproduction abilities when ingesting oil, which will greatly lower the species’ population
 the BP Deep Horizon Oil Spill, the largest oil spill in history, spilled 168 million gallons (or 4 million barrels) of oil into the Gulf of Mexico
-The BPDH Oil Spill killed more than 102,000 birds from 93 species and affected more than 65,000 acres along Mississippi, Louisiana, Alabama, and Florida</string>
+🦆The BPDH Oil Spill killed more than 102,000 birds from 93 species and affected more than 65,000 acres along Mississippi, Louisiana, Alabama, and Florida</mutableString>
                                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1297,12 +1297,12 @@ The BPDH Oil Spill killed more than 102,000 birds from 93 species and affected m
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cc-iy-Vm7">
                                                 <rect key="frame" x="26" y="1325" width="363" height="780"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Avoid overfilling vehicle and boat tanks when pumping gas to prevent runoff into bodies of water
-Occasionally tighten bolts on boat engines to prevent leakage while the engine is running
+                                                <mutableString key="text">🦆Avoid overfilling vehicle and boat tanks when pumping gas to prevent runoff into bodies of water
+🦆Occasionally tighten bolts on boat engines to prevent leakage while the engine is running
 Keep absorbent pads on hand on boats to efficiently clean up small spills
-If you witness a spill, please notify the Coast Guard and State Spill Response Officer
-Donate to The Marine Mammal Center to help feed and Care for injured Marine Mammals rescued in times of danger
-Donate to International Bird Rescue to provide support for the next natural disaster, which will provide medicine and food for birds in need</string>
+🦆If you witness a spill, please notify the Coast Guard and State Spill Response Officer
+🦆Donate to The Marine Mammal Center to help feed and Care for injured Marine Mammals rescued in times of danger
+🦆Donate to International Bird Rescue to provide support for the next natural disaster, which will provide medicine and food for birds in need</mutableString>
                                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1463,12 +1463,12 @@ Donate to International Bird Rescue to provide support for the next natural disa
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQZ-Ze-sIG">
                                                 <rect key="frame" x="26" y="152" width="363" height="715"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">More than 3 million whales have been slaughtered due to the whaling business
-Maui dolphins are critically endangered due to deaths by commercial fishing nets
-Oil pits kill up to 500,000 to 1 million birds every year
+                                                <mutableString key="text">🐢More than 3 million whales have been slaughtered due to the whaling business
+🐢Maui dolphins are critically endangered due to deaths by commercial fishing nets
+🐢Oil pits kill up to 500,000 to 1 million birds every year
 Sea Otters are killed every year from boat strikes by unknowing vessels
-Gill nets, shrimp trawals, and longlines put sea turtles at very high risk
-As plastic breaks down, all marine animals are at risk to ingest microplastics and the toxic chemicals it gives off, such as polychlorinated biphenyls (PCB)</string>
+🐢Gill nets, shrimp trawals, and longlines put sea turtles at very high risk
+🐢As plastic breaks down, all marine animals are at risk to ingest microplastics and the toxic chemicals it gives off, such as polychlorinated biphenyls (PCB)</mutableString>
                                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1476,12 +1476,12 @@ As plastic breaks down, all marine animals are at risk to ingest microplastics a
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="32" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6j-PY-arb">
                                                 <rect key="frame" x="26" y="1068" width="363" height="715"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">More than 3 million whales have been slaughtered due to the whaling business
-Maui dolphins are critically endangered due to deaths by commercial fishing nets
-Oil pits kill up to 500,000 to 1 million birds every year
-Sea Otters are killed every year from boat strikes by unknowing vessels
-Gill nets, shrimp trawals, and longlines put sea turtles at very high risk
-As plastic breaks down, all marine animals are at risk to ingest microplastics and the toxic chemicals it gives off, such as polychlorinated biphenyls (PCB)</string>
+                                                <mutableString key="text">🐢More than 3 million whales have been slaughtered due to the whaling business
+🐢Maui dolphins are critically endangered due to deaths by commercial fishing nets
+🐢Oil pits kill up to 500,000 to 1 million birds every year
+🐢Sea Otters are killed every year from boat strikes by unknowing vessels
+🐢Gill nets, shrimp trawals, and longlines put sea turtles at very high risk
+🐢As plastic breaks down, all marine animals are at risk to ingest microplastics and the toxic chemicals it gives off, such as polychlorinated biphenyls (PCB)</mutableString>
                                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -2408,7 +2408,7 @@ To determine your true needs and avoid impulse buys, try the three-day rule: if 
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="uK0-6u-Me8"/>
-        <segue reference="Jix-oB-kwJ"/>
+        <segue reference="ief-IH-9Ca"/>
         <segue reference="f8D-E5-RTy"/>
         <segue reference="kgh-zB-CvF"/>
         <segue reference="mHI-6h-jEG"/>
