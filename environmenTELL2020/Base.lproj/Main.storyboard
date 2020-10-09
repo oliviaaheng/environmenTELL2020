@@ -244,16 +244,6 @@
                                     <action selector="D:" destination="G2i-57-AWJ" eventType="touchUpInside" id="I55-x7-WuU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Izd-3U-DC4">
-                                <rect key="frame" x="169" y="726" width="77" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="TjI-JK-WF4" kind="presentation" modalPresentationStyle="fullScreen" id="6Xf-aC-wD7"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNA-vX-dWu">
                                 <rect key="frame" x="134" y="75" width="168" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -286,6 +276,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OjX-dT-L30">
+                                <rect key="frame" x="164" y="739" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextPage:" destination="G2i-57-AWJ" eventType="touchUpInside" id="o6b-Z9-RUV"/>
+                                    <segue destination="TjI-JK-WF4" kind="show" id="PND-bC-ppQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tpC-w0-JTk"/>
                         <color key="backgroundColor" red="0.42269459370000001" green="0.76462489369999997" blue="0.80922144650000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -293,7 +294,7 @@
                     <navigationItem key="navigationItem" id="bdk-8E-SHb"/>
                     <connections>
                         <outlet property="A" destination="i1I-IK-C8l" id="7ry-sY-Pz8"/>
-                        <outlet property="nextPage" destination="Izd-3U-DC4" id="uaH-v3-FgA"/>
+                        <outlet property="nextPage" destination="OjX-dT-L30" id="noO-Jh-NwK"/>
                         <outlet property="no" destination="ACt-R6-mrB" id="06J-M4-Rl4"/>
                     </connections>
                 </viewController>
@@ -954,7 +955,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click Next to Start the  Quiz!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCo-RR-hsM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click NEXT to Start the  Quiz!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCo-RR-hsM">
                                 <rect key="frame" x="43" y="335" width="342" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
@@ -2843,7 +2844,7 @@ To determine your true needs and avoid impulse buys, try the three-day rule: if 
             <objects>
                 <viewController id="TjI-JK-WF4" customClass="Q5ViewController" customModule="environmenTELL2020" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rgz-zf-Orw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question 5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rej-QM-xaT">
@@ -2882,7 +2883,7 @@ To determine your true needs and avoid impulse buys, try the three-day rule: if 
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" id="0tR-Wg-WN4">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1T5-ui-zbu">
@@ -3100,7 +3101,7 @@ To determine your true needs and avoid impulse buys, try the three-day rule: if 
     <inferredMetricsTieBreakers>
         <segue reference="3c5-Xg-y6N"/>
         <segue reference="ief-IH-9Ca"/>
-        <segue reference="mFM-bF-1zL"/>
+        <segue reference="Y4K-ft-PXQ"/>
         <segue reference="kgh-zB-CvF"/>
         <segue reference="em5-vc-IT9"/>
     </inferredMetricsTieBreakers>

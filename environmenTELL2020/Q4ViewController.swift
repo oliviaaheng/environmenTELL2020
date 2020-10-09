@@ -25,24 +25,24 @@ class Q4ViewController: UIViewController {
     
     @IBAction func A(_ sender: Any) {
         A.isHidden = false
-               nextPage.isHidden = false
-               no.isHidden = true
+        nextPage.isHidden = false
+        no.isHidden = true
     }
     @IBAction func B(_ sender: Any) {
         A.isHidden = true
-               nextPage.isHidden = true
-               no.isHidden = false
+        nextPage.isHidden = true
+        no.isHidden = false
     }
     @IBAction func C(_ sender: Any) {
         A.isHidden = true
-               nextPage.isHidden = true
-               no.isHidden = false
+        nextPage.isHidden = true
+        no.isHidden = false
     }
     
     @IBAction func D(_ sender: Any) {
         A.isHidden = true
-               nextPage.isHidden = true
-               no.isHidden = false
+        nextPage.isHidden = true
+        no.isHidden = false
     }
     /*
     // MARK: - Navigation
